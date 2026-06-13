@@ -1,0 +1,180 @@
+{
+  "guards_regiments_ranks": {
+    "description": "Specialized rank titles for Guards regiments (Grenadier, Coldstream, Scots, Irish, Welsh)",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt", "notes": "Standard rank"},
+      {"rank": "Lieutenant", "abbreviation": "Lt", "notes": "Standard rank"},
+      {"rank": "Captain", "abbreviation": "Capt", "notes": "Standard rank"},
+      {"rank": "Major", "abbreviation": "Maj", "notes": "Standard rank"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col", "notes": "Standard rank"},
+      {"rank": "Colonel", "abbreviation": "Col", "notes": "Standard rank"},
+      {"rank": "Brigadier", "abbreviation": "Brig", "notes": "Standard rank"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal", "abbreviation": "LCpl", "notes": "Distinction of the Guard"},
+      {"rank": "Corporal", "abbreviation": "Cpl", "notes": "Corporal of Horse in cavalry units"},
+      {"rank": "Sergeant", "abbreviation": "Sgt", "notes": "Sergeant of the Guard"},
+      {"rank": "Sergeant Major", "abbreviation": "Sgt Maj", "notes": "Colour Sergeant"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2", "notes": "Company Sergeant Major"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1", "notes": "Regiment Sergeant Major", "honorific": "Mr"}
+    ],
+    "soldier": [
+      {"rank": "Guardsman", "abbreviation": "Gdsm", "notes": "Standard private soldier rank in Guards"}
+    ]
+  },
+  "rifles_regiment_ranks": {
+    "description": "Specialized rank titles for The Rifles",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal", "abbreviation": "LCpl", "notes": "Marksman in Rifles tradition"},
+      {"rank": "Corporal", "abbreviation": "Cpl"},
+      {"rank": "Sergeant", "abbreviation": "Sgt"},
+      {"rank": "Staff Sergeant", "abbreviation": "SSgt"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1"}
+    ],
+    "soldier": [
+      {"rank": "Rifleman", "abbreviation": "Rfn", "notes": "Standard private soldier rank in The Rifles"}
+    ]
+  },
+  "parachute_regiment_ranks": {
+    "description": "Specialized rank titles for Parachute Regiment",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal", "abbreviation": "LCpl"},
+      {"rank": "Corporal", "abbreviation": "Cpl"},
+      {"rank": "Sergeant", "abbreviation": "Sgt"},
+      {"rank": "Staff Sergeant", "abbreviation": "SSgt"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1"}
+    ],
+    "soldier": [
+      {"rank": "Private", "abbreviation": "Pte"},
+      {"rank": "Lance Corporal", "abbreviation": "LCpl"}
+    ],
+    "airborne_requirement": "P Coy qualification mandatory"
+  },
+  "cavalry_ranks": {
+    "description": "Specialized rank titles for Cavalry regiments",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal of Horse", "abbreviation": "LCoH"},
+      {"rank": "Corporal of Horse", "abbreviation": "CoH", "notes": "Equivalent to Sergeant in other regiments"},
+      {"rank": "Sergeant Major of Horse", "abbreviation": "SMoH"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1", "notes": "Regiment Sergeant Major of Horse"}
+    ],
+    "soldier": [
+      {"rank": "Trooper", "abbreviation": "Tpr", "notes": "Private soldier in cavalry regiments"}
+    ]
+  },
+  "royal_artillery_ranks": {
+    "description": "Specialized rank titles for Royal Artillery",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Bombardier", "abbreviation": "LBdr"},
+      {"rank": "Bombardier", "abbreviation": "Bdr", "notes": "Equivalent to Corporal"},
+      {"rank": "Sergeant", "abbreviation": "Sgt"},
+      {"rank": "Staff Sergeant", "abbreviation": "SSgt"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1"}
+    ],
+    "soldier": [
+      {"rank": "Gunner", "abbreviation": "Gnr", "notes": "Private soldier in Royal Artillery"}
+    ]
+  },
+  "royal_engineers_ranks": {
+    "description": "Specialized rank titles for Royal Engineers",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal", "abbreviation": "LCpl"},
+      {"rank": "Corporal", "abbreviation": "Cpl"},
+      {"rank": "Sergeant", "abbreviation": "Sgt"},
+      {"rank": "Staff Sergeant", "abbreviation": "SSgt"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1"}
+    ],
+    "soldier": [
+      {"rank": "Sapper", "abbreviation": "Spr", "notes": "Private soldier in Royal Engineers"}
+    ]
+  },
+  "royal_signals_ranks": {
+    "description": "Specialized rank titles for Royal Signals",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal", "abbreviation": "LCpl"},
+      {"rank": "Corporal", "abbreviation": "Cpl"},
+      {"rank": "Sergeant", "abbreviation": "Sgt"},
+      {"rank": "Staff Sergeant", "abbreviation": "SSgt"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1"}
+    ],
+    "soldier": [
+      {"rank": "Signaller", "abbreviation": "Sig", "notes": "Private soldier in Royal Signals"}
+    ]
+  },
+  "reme_ranks": {
+    "description": "Specialized rank titles for REME",
+    "officer": [
+      {"rank": "Second Lieutenant", "abbreviation": "2Lt"},
+      {"rank": "Lieutenant", "abbreviation": "Lt"},
+      {"rank": "Captain", "abbreviation": "Capt"},
+      {"rank": "Major", "abbreviation": "Maj"},
+      {"rank": "Lieutenant Colonel", "abbreviation": "Lt Col"},
+      {"rank": "Colonel", "abbreviation": "Col"}
+    ],
+    "nco": [
+      {"rank": "Lance Corporal", "abbreviation": "LCpl"},
+      {"rank": "Corporal", "abbreviation": "Cpl"},
+      {"rank": "Sergeant", "abbreviation": "Sgt"},
+      {"rank": "Staff Sergeant", "abbreviation": "SSgt"},
+      {"rank": "Warrant Officer Class 2", "abbreviation": "WO2"},
+      {"rank": "Warrant Officer Class 1", "abbreviation": "WO1"}
+    ],
+    "soldier": [
+      {"rank": "Craftsman", "abbreviation": "Cfn", "notes": "Private soldier in REME (skilled tradesperson)"}
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "infantry_regiments": [
+    {
+      "name": "Grenadier Guards",
+      "type": "Foot Guards",
+      "battalions": [
+        {"number": 1, "location": "Wellington Barracks, London", "role": "Public Duties & Operations"},
+        {"number": 2, "location": "Birdcage Walk, London", "role": "Public Duties & Operations"}
+      ],
+      "specializations": ["Public Duties", "Ceremonial", "Infantry Operations"],
+      "recruiting_area": "London and South East",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Coldstream Guards",
+      "type": "Foot Guards",
+      "battalions": [
+        {"number": 1, "location": "Wellington Barracks, London", "role": "Public Duties & Operations"},
+        {"number": 2, "location": "Windsor, Berkshire", "role": "Operational"}
+      ],
+      "specializations": ["Public Duties", "Ceremonial", "Infantry Operations"],
+      "recruiting_area": "Scotland",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Scots Guards",
+      "type": "Foot Guards",
+      "battalions": [
+        {"number": 1, "location": "Birdcage Walk, London", "role": "Public Duties & Operations"},
+        {"number": 2, "location": "Catterick, North Yorkshire", "role": "Operational"}
+      ],
+      "specializations": ["Public Duties", "Ceremonial", "Infantry Operations"],
+      "recruiting_area": "Scotland",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Irish Guards",
+      "type": "Foot Guards",
+      "battalions": [
+        {"number": 1, "location": "Wellington Barracks, London", "role": "Public Duties & Operations"},
+        {"number": 2, "location": "Catterick, North Yorkshire", "role": "Operational"}
+      ],
+      "specializations": ["Public Duties", "Ceremonial", "Infantry Operations"],
+      "recruiting_area": "London and South East",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Welsh Guards",
+      "type": "Foot Guards",
+      "battalions": [
+        {"number": 1, "location": "Windsor, Berkshire", "role": "Public Duties & Operations"},
+        {"number": 2, "location": "Aldershot, Hampshire", "role": "Operational"}
+      ],
+      "specializations": ["Public Duties", "Ceremonial", "Infantry Operations"],
+      "recruiting_area": "Wales",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "The Rifles",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Victoria Barracks, Salisbury", "role": "Rapid Reaction"},
+        {"number": 2, "location": "Chepstow, Wales", "role": "Operational"},
+        {"number": 3, "location": "Bulford, Wiltshire", "role": "Operational"},
+        {"number": 4, "location": "Aldershot, Hampshire", "role": "Operational"}
+      ],
+      "specializations": ["Light Infantry", "Rifle Operations", "Rapid Deployment"],
+      "recruiting_area": "South West England",
+      "sub_units": ["Rifles Reserve Units"],
+      "role": "Light role infantry"
+    },
+    {
+      "name": "The Royal Welsh",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Tidworth, Wiltshire", "role": "Operational"},
+        {"number": 2, "location": "Aldershot, Hampshire", "role": "Operational"}
+      ],
+      "specializations": ["Infantry Operations", "Mountain Warfare"],
+      "recruiting_area": "Wales",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Duke of Lancaster's Regiment",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Weeton, Lancashire", "role": "Operational"},
+        {"number": 2, "location": "Aldershot, Hampshire", "role": "Operational"}
+      ],
+      "specializations": ["Infantry Operations", "Urban Warfare"],
+      "recruiting_area": "North West England",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Staffordshire Regiment",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Lichfield, Staffordshire", "role": "Operational"},
+        {"number": 2, "location": "Catterick, North Yorkshire", "role": "Operational"}
+      ],
+      "specializations": ["Infantry Operations", "General Purpose Infantry"],
+      "recruiting_area": "Midlands",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Princess of Wales's Royal Regiment",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Bulford, Wiltshire", "role": "Operational"},
+        {"number": 2, "location": "Colchester, Essex", "role": "Operational"}
+      ],
+      "specializations": ["Infantry Operations", "Airborne Operations"],
+      "recruiting_area": "South East England",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Royal Regiment of Scotland",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Edinburgh, Scotland", "role": "Operational"},
+        {"number": 2, "location": "Stirling, Scotland", "role": "Operational"},
+        {"number": 3, "location": "Fort George, Scotland", "role": "Operational"},
+        {"number": 4, "location": "Edinburgh, Scotland", "role": "Operational"}
+      ],
+      "specializations": ["Infantry Operations", "Highland Warfare"],
+      "recruiting_area": "Scotland",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Royal Irish Regiment",
+      "type": "Line Infantry",
+      "battalions": [
+        {"number": 1, "location": "Lisburn, Northern Ireland", "role": "Operational"},
+        {"number": 2, "location": "Ballymena, Northern Ireland", "role": "Operational"}
+      ],
+      "specializations": ["Infantry Operations", "Counter-Insurgency"],
+      "recruiting_area": "Northern Ireland",
+      "battle_honours": "Numerous"
+    },
+    {
+      "name": "Parachute Regiment",
+      "type": "Airborne Infantry",
+      "battalions": [
+        {"number": 1, "location": "Colchester, Essex", "role": "Airborne Operations"},
+        {"number": 2, "location": "Aldershot, Hampshire", "role": "Airborne Operations"},
+        {"number": 3, "location": "Colchester, Essex", "role": "Airborne Operations"}
+      ],
+      "specializations": ["Airborne Operations", "Rapid Insertion", "P Coy"],
+      "recruiting_area": "UK-wide",
+      "requirements": "P Coy selection course mandatory",
+      "battle_honours": "Numerous"
+    }
+  ],
+  "cavalry_regiments": [
+    {
+      "name": "The Life Guards",
+      "type": "Household Cavalry",
+      "role": "Mounted & Armoured Cavalry",
+      "location": "Horse Guards, London",
+      "specializations": ["Public Duties", "Armoured Cavalry Operations", "Ceremonial"],
+      "sub_units": ["A Squadron", "B Squadron", "C (Mounted) Squadron"],
+      "recruiting_area": "UK-wide"
+    },
+    {
+      "name": "The Blues and Royals (Royal Horse Guards and 1st Dragoons)",
+      "type": "Household Cavalry",
+      "role": "Mounted & Armoured Cavalry",
+      "location": "Horse Guards, London",
+      "specializations": ["Public Duties", "Armoured Cavalry Operations", "Ceremonial"],
+      "sub_units": ["A Squadron", "B Squadron", "C (Mounted) Squadron"],
+      "recruiting_area": "UK-wide"
+    },
+    {
+      "name": "1st The Queen's Dragoon Guards",
+      "type": "Line Cavalry",
+      "role": "Armoured Cavalry",
+      "location": "Catterick, North Yorkshire",
+      "specializations": ["Armoured Cavalry", "Reconnaissance"],
+      "vehicles": "Ajax",
+      "recruiting_area": "Wales"
+    },
+    {
+      "name": "The Royal Dragoon Guards",
+      "type": "Line Cavalry",
+      "role": "Armoured Cavalry",
+      "location": "Catterick, North Yorkshire",
+      "specializations": ["Armoured Cavalry", "Reconnaissance"],
+      "vehicles": "Ajax",
+      "recruiting_area": "North East England"
+    },
+    {
+      "name": "4th/7th Royal Dragoon Guards",
+      "type": "Line Cavalry",
+      "role": "Armoured Cavalry",
+      "location": "Catterick, North Yorkshire",
+      "specializations": ["Armoured Cavalry", "Reconnaissance"],
+      "vehicles": "Ajax",
+      "recruiting_area": "Midlands & Wales"
+    },
+    {
+      "name": "5th Royal Inniskilling Dragoon Guards",
+      "type": "Line Cavalry",
+      "role": "Armoured Cavalry",
+      "location": "Catterick, North Yorkshire",
+      "specializations": ["Armoured Cavalry", "Reconnaissance"],
+      "vehicles": "Ajax",
+      "recruiting_area": "Northern Ireland"
+    },
+    {
+      "name": "9th/12th Royal Lancers",
+      "type": "Line Cavalry",
+      "role": "Armoured Cavalry",
+      "location": "Catterick, North Yorkshire",
+      "specializations": ["Armoured Cavalry", "Reconnaissance"],
+      "vehicles": "Ajax",
+      "recruiting_area": "North Midlands"
+    },
+    {
+      "name": "Royal Scots Dragoon Guards",
+      "type": "Line Cavalry",
+      "role": "Armoured Cavalry",
+      "location": "Catterick, North Yorkshire",
+      "specializations": ["Armoured Cavalry", "Reconnaissance"],
+      "vehicles": "Ajax",
+      "recruiting_area": "Scotland"
+    }
+  ],
+  "special_forces": [
+    {
+      "name": "22 Special Air Service (SAS)",
+      "type": "Special Forces Regiment",
+      "location": "Hereford, England",
+      "role": "Special Operations",
+      "selection": "SAS Selection - 3 weeks",
+      "rank_reversal": "All join as Trooper (regardless of previous rank)",
+      "specializations": ["Counter-Terrorism", "Direct Action", "Special Reconnaissance", "HALO/HAHO"],
+      "squadrons": ["A Squadron", "B Squadron", "D Squadron"],
+      "operational_commitments": ["Counter-Terrorism Command (CTC)", "Global Operations"],
+      "requirements": "Minimum 1 year service, Excellent health & fitness"
+    },
+    {
+      "name": "Special Boat Service (SBS)",
+      "type": "Special Forces Unit",
+      "location": "Poole, Dorset",
+      "role": "Maritime Special Operations",
+      "selection": "SBS Selection - Phase 1 & 2",
+      "rank_reversal": "All join as Marine (regardless of previous rank)",
+      "specializations": ["Maritime Operations", "Counter-Terrorism", "Amphibious Assault", "Dive Operations"],
+      "squadrons": ["M Squadron", "S Squadron", "SRR (Special Reconnaissance Regiment)"],
+      "operational_commitments": ["Counter-Terrorism Command (CTC)", "Naval Operations"],
+      "requirements": "Minimum 1 year service in Royal Marines, Excellent water skills"
+    },
+    {
+      "name": "Special Reconnaissance Regiment (SRR)",
+      "type": "Special Forces Unit",
+      "location": "Various",
+      "role": "Reconnaissance & Surveillance",
+      "selection": "SRR Selection Course",
+      "rank_reversal": "NCOs join as Operator regardless of previous rank",
+      "specializations": ["Surveillance", "Reconnaissance", "Intelligence Gathering", "HALO/HAHO"],
+      "operational_commitments": ["Global Operations", "Counter-Terrorism"],
+      "requirements": "Minimum 2 years service, High intelligence & training standards"
+    }
+  ],
+  "corps": [
+    {
+      "name": "Royal Artillery",
+      "type": "Combat Support",
+      "role": "Fire Support",
+      "regiments": [
+        {
+          "name": "1st Regiment Royal Horse Artillery",
+          "location": "Catterick, North Yorkshire",
+          "equipment": "Self-Propelled Guns (AS90)",
+          "role": "Field Artillery"
+        },
+        {
+          "name": "2nd Regiment Royal Horse Artillery",
+          "location": "Catterick, North Yorkshire",
+          "equipment": "Towed Artillery (105mm Light Gun)",
+          "role": "Field Artillery"
+        },
+        {
+          "name": "3rd Regiment Royal Horse Artillery",
+          "location": "Catterick, North Yorkshire",
+          "equipment": "Towed Artillery (105mm Light Gun)",
+          "role": "Field Artillery"
+        },
+        {
+          "name": "4th Regiment Royal Artillery",
+          "location": "Biggleswade, Bedfordshire",
+          "equipment": "Air Defence Systems",
+          "role": "Air Defence"
+        },
+        {
+          "name": "5th Regiment Royal Artillery",
+          "location": "Tidworth, Wiltshire",
+          "equipment": "Towed Artillery",
+          "role": "Field Artillery"
+        },
+        {
+          "name": "7th Parachute Regiment Royal Horse Artillery",
+          "location": "Colchester, Essex",
+          "equipment": "Towed Artillery (105mm Light Gun)",
+          "role": "Airborne Artillery"
+        },
+        {
+          "name": "29th Commando Regiment Royal Artillery",
+          "location": "Plymouth, Devon",
+          "equipment": "Towed Artillery",
+          "role": "Commando Artillery",
+          "batteries": ["4/73 Battery", "148 Battery (5th RA)"]
+        },
+        {
+          "name": "32nd Regiment Royal Artillery",
+          "location": "Larkhill, Wiltshire",
+          "equipment": "Multi-Launch Rocket System (MLRS)",
+          "role": "Counter-Battery & Rocket Artillery"
+        },
+        {
+          "name": "39th Regiment Royal Artillery",
+          "location": "Biggleswade, Bedfordshire",
+          "equipment": "Air Defence Systems",
+          "role": "Air Defence"
+        }
+      ],
+      "specializations": ["Field Artillery", "Air Defence", "Counter-Battery", "Fire Control"],
+      "courses": ["Gunner's Course", "Gun Sergeant's Course", "Officer Tactical Course"]
+    },
+    {
+      "name": "Royal Engineers",
+      "type": "Combat Support",
+      "role": "Military Engineering",
+      "regiments": [
+        {
+          "name": "1st Regiment Royal Engineers",
+          "location": "Chatham, Kent",
+          "role": "General Engineers"
+        },
+        {
+          "name": "3rd Regiment Royal Engineers",
+          "location": "Hameln, Germany",
+          "role": "Combat Engineers"
+        },
+        {
+          "name": "4th Regiment Royal Engineers",
+          "location": "Feltham, London",
+          "role": "Geo-spatial & Specialist Engineers"
+        },
+        {
+          "name": "5th Regiment Royal Engineers",
+          "location": "Aldershot, Hampshire",
+          "role": "Combat Support Engineers"
+        },
+        {
+          "name": "15th Regiment Royal Engineers",
+          "location": "Aldershot, Hampshire",
+          "role": "Field Squadron Engineers"
+        },
+        {
+          "name": "21st Engineer Regiment",
+          "location": "Aldershot, Hampshire",
+          "role": "Combat Support Engineers"
+        },
+        {
+          "name": "26th Engineer Regiment",
+          "location": "Aldershot, Hampshire",
+          "role": "EOD & Specialist Engineers"
+        }
+      ],
+      "specializations": ["Combat Engineering", "EOD (Explosive Ordnance Disposal)", "Bridging", "Demolitions", "Barrier Works"],
+      "courses": ["Combat Engineer's Course", "EOD Operators Course", "AACC (All Arms Commando Course)"]
+    },
+    {
+      "name": "Royal Signals",
+      "type": "Combat Support",
+      "role": "Communication & IT",
+      "regiments": [
+        {
+          "name": "1st Signal Regiment",
+          "location": "Catterick, North Yorkshire",
+          "role": "Operational Communications"
+        },
+        {
+          "name": "2nd Signal Regiment",
+          "location": "York, North Yorkshire",
+          "role": "Operational Communications"
+        },
+        {
+          "name": "3rd Signal Regiment",
+          "location": "Bulford, Wiltshire",
+          "role": "Operational Communications"
+        },
+        {
+          "name": "7th Signal Regiment",
+          "location": "Corsham, Wiltshire",
+          "role": "Strategic Communications"
+        },
+        {
+          "name": "10th Signal Regiment",
+          "location": "Corsham, Wiltshire",
+          "role": "Intelligence & Cyber"
+        },
+        {
+          "name": "14th Signal Regiment",
+          "location": "Corsham, Wiltshire",
+          "role": "Electronic Warfare"
+        }
+      ],
+      "specializations": ["Radio Operations", "IT Support", "Network Management", "Cyber Defence", "Satellite Communications"],
+      "courses": ["Communication Systems Course", "Network Operations Course", "Cyber Defence Course"]
+    },
+    {
+      "name": "Royal Army Medical Corps",
+      "type": "Combat Support",
+      "role": "Medical Support",
+      "units": [
+        {
+          "name": "1st Regiment Royal Army Medical Corps",
+          "location": "Aldershot, Hampshire",
+          "role": "Field Hospital Support"
+        },
+        {
+          "name": "2nd Regiment Royal Army Medical Corps",
+          "location": "York, North Yorkshire",
+          "role": "Field Hospital Support"
+        },
+        {
+          "name": "3rd Regiment Royal Army Medical Corps",
+          "location": "Aldershot, Hampshire",
+          "role": "Combat Medical Support"
+        },
+        {
+          "name": "16th Medical Regiment",
+          "location": "Aldershot, Hampshire",
+          "role": "Medical Support"
+        }
+      ],
+      "specializations": ["Field Medic", "Combat Casualty Care", "Battlefield Medicine", "Surgical Support"],
+      "courses": ["Combat Medic Course", "Field Hospital Course", "Medical Technician Course"]
+    },
+    {
+      "name": "Royal Electrical and Mechanical Engineers (REME)",
+      "type": "Combat Support",
+      "role": "Equipment & Vehicle Support",
+      "battalions": [
+        {
+          "name": "1st Battalion REME",
+          "location": "Lyneham, Wiltshire",
+          "role": "Vehicle Maintenance & Repair"
+        },
+        {
+          "name": "2nd Battalion REME",
+          "location": "Aldershot, Hampshire",
+          "role": "Equipment Support"
+        },
+        {
+          "name": "3rd Battalion REME",
+          "location": "Chattenden, Kent",
+          "role": "Weapons Systems Support"
+        },
+        {
+          "name": "4th Battalion REME",
+          "location": "Aldershot, Hampshire",
+          "role": "Equipment Repair & Maintenance"
+        }
+      ],
+      "specializations": ["Vehicle Maintenance", "Weapon Systems Support", "Electronic Repairs", "Heavy Equipment Repair"],
+      "courses": ["Technician's Course", "Vehicle Mechanic Course", "Weapon Systems Course"]
+    },
+    {
+      "name": "Army Air Corps",
+      "type": "Combat Support",
+      "role": "Helicopter Operations & Fire Support",
+      "squadrons": [
+        {
+          "name": "3 Regiment Army Air Corps",
+          "location": "Wattisham, Suffolk",
+          "role": "Attack & Fire Support",
+          "aircraft": "Apache AH-64D"
+        },
+        {
+          "name": "4 Regiment Army Air Corps",
+          "location": "Wattisham, Suffolk",
+          "role": "Transport & Attack",
+          "aircraft": "Lynx, Apache"
+        },
+        {
+          "name": "5 Regiment Army Air Corps",
+          "location": "Aldergrove, Northern Ireland",
+          "role": "Transport & Support",
+          "aircraft": "Puma, Lynx"
+        },
+        {
+          "name": "7 Regiment Army Air Corps",
+          "location": "Middle Wallop, Hampshire",
+          "role": "Training & Support",
+          "aircraft": "Gazelle, Scout"
+        },
+        {
+          "name": "8 Regiment Army Air Corps",
+          "location": "Shawbury, Shropshire",
+          "role": "Training & Support",
+          "aircraft": "Gazelle"
+        },
+        {
+          "name": "9 Regiment Army Air Corps",
+          "location": "Dishforth, North Yorkshire",
+          "role": "Transport & Attack",
+          "aircraft": "Chinook, Apache"
+        }
+      ],
+      "specializations": ["Attack Helicopter Pilot", "Transport Helicopter Pilot", "Aircraft Technician", "Gunner"],
+      "courses": ["Rotary Wing Pilot Course (RWPC)", "Apache Tactics Course", "Helicopter Technician Course"],
+      "nco_pilot_entry": "Instant promotion to Sergeant as Army Air Corps Pilot from L/Cpl"
+    }
+  ],
+  "support_corps": [
+    {
+      "name": "Royal Logistic Corps",
+      "type": "Logistics",
+      "role": "Supply, Transport & Logistics",
+      "regiments": [
+        {"name": "1st Regiment Royal Logistic Corps", "role": "General Support"},
+        {"name": "2nd Regiment Royal Logistic Corps", "role": "Ammunition & Explosives"},
+        {"name": "3rd Regiment Royal Logistic Corps", "role": "Supply & Transport"},
+        {"name": "4th Regiment Royal Logistic Corps", "role": "General Support"},
+        {"name": "5th Regiment Royal Logistic Corps", "role": "General Support"}
+      ],
+      "specializations": ["Logistics Operations", "Supply Chain", "Transportation", "Warehousing", "Ammunition Handling"]
+    },
+    {
+      "name": "Royal Military Police",
+      "type": "Military Police",
+      "role": "Policing & Military Law Enforcement",
+      "specializations": ["Military Law Enforcement", "Criminal Investigation", "Close Protection", "Traffic Control"]
+    },
+    {
+      "name": "Intelligence Corps",
+      "type": "Intelligence",
+      "role": "Military Intelligence & HUMINT",
+      "specializations": ["HUMINT Operations", "Intelligence Analysis", "Interrogation Specialist", "Language Specialist"]
+    },
+    {
+      "name": "Defence Humint Unit (DHU)",
+      "type": "Intelligence",
+      "role": "Human Intelligence Operations",
+      "specializations": ["Operational HUMINT", "Covert Operations", "Target Development", "Asset Handling"]
+    }
+  ],
+  "pathfinder_group": [
+    {
+      "name": "Pathfinder Platoon",
+      "type": "Special Operations",
+      "location": "Colchester, Essex (Integrated with 16 Air Assault Brigade)",
+      "role": "Advanced Reconnaissance & Route Finding",
+      "selection": "Pathfinder Course (High intensity, mountain warfare focus)",
+      "specializations": ["Route Finding", "Advanced Reconnaissance", "Pathfinding Operations", "Mountain Warfare", "Helicopter Operations"],
+      "operational_commitments": ["16 Air Assault Brigade Operations", "Global Deployments"],
+      "requirements": "P Coy qualified, 2+ years service, Excellent navigation skills",
+      "training_focus": "Navigation, Mountaineering, Advanced Tactics"
+    }
+  ],
+  "sfsg": [
+    {
+      "name": "Special Forces Support Group (SFSG)",
+      "type": "Special Operations Support",
+      "location": "Aldershot, Hampshire",
+      "role": "Dedicated Support for Special Forces Operations",
+      "units": [
+        {"name": "1st Battalion SFSG", "role": "Close Support"},
+        {"name": "2nd Battalion SFSG", "role": "Mobility Support"}
+      ],
+      "specializations": ["Counter-Terrorism Support", "Direct Action Support", "HALO/HAHO", "Advanced Marksmanship"],
+      "operational_commitments": ["Counter-Terrorism Command (CTC) Taskings", "Global Operations"],
+      "requirements": "P Coy qualified, High physical & mental standards"
+    }
+  ],
+  "ranger_regiment": [
+    {
+      "name": "Ranger Regiment",
+      "type": "Light Role Infantry",
+      "location": "Catterick, North Yorkshire",
+      "role": "Advanced Light Infantry Operations",
+      "battalions": [
+        {"number": 1, "location": "Catterick, North Yorkshire", "role": "Operational Rangers"},
+        {"number": 2, "location": "Catterick, North Yorkshire", "role": "Operational Rangers"},
+        {"number": 3, "location": "Catterick, North Yorkshire", "role": "Operational Rangers"}
+      ],
+      "selection": "Ranger Course (Demanding infantry skills course)",
+      "specializations": ["Advanced Marksmanship", "Advanced Fieldcraft", "Urban Operations", "Direct Action"],
+      "operational_commitments": ["Counter-Terrorism Operations", "Advanced Deployments"],
+      "requirements": "2+ years service, Excellent physical fitness, Advanced infantry skills"
+    }
+  ]
+}

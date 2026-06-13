@@ -1,0 +1,352 @@
+{
+  "phase_1_training": {
+    "name": "Initial Military Training (Phase 1)",
+    "duration_weeks": 24,
+    "description": "Foundation military training for all new soldiers",
+    "locations": [
+      {"name": "Pirbright, Surrey", "description": "Main Phase 1 centre"},
+      {"name": "Catterick, North Yorkshire", "description": "Northern Phase 1 centre"},
+      {"name": "Bassingbourn, Cambridgeshire", "description": "Alternative training centre"}
+    ],
+    "modules": [
+      {
+        "week": "1-2",
+        "subject": "Induction & Foundational Skills",
+        "topics": ["Military values", "Discipline", "Teamwork", "Basic fitness", "Uniform & equipment"]
+      },
+      {
+        "week": "3-6",
+        "subject": "Fieldcraft & Combat Skills",
+        "topics": ["Weapons handling", "Rifle marksmanship", "Map reading", "Navigation", "Field signals"]
+      },
+      {
+        "week": "7-10",
+        "subject": "Physical Conditioning",
+        "topics": ["Advanced fitness", "Combat fitness", "Load carrying", "Tactical movement"]
+      },
+      {
+        "week": "11-14",
+        "subject": "Tactical Training",
+        "topics": ["Section tactics", "Casualty evacuation", "Chemical/Bio protection", "Vehicle operations"]
+      },
+      {
+        "week": "15-18",
+        "subject": "Advanced Combat Training",
+        "topics": ["Offensive operations", "Defensive operations", "Urban operations", "Patrol tactics"]
+      },
+      {
+        "week": "19-24",
+        "subject": "Exercises & Assessments",
+        "topics": ["Integrated exercises", "Final assessments", "Weapon handling tests", "Fitness tests"]
+      }
+    ],
+    "pass_rate": "85%",
+    "failure_reason": ["Lack of fitness", "Inability to cope with discipline", "Medical issues", "Inability to handle weapons"]
+  },
+  "phase_2_training": {
+    "name": "Specialist Military Training (Phase 2)",
+    "duration_weeks": 24,
+    "description": "Specialization training based on role and regiment",
+    "entry_requirement": "Phase 1 completion",
+    "infantry_phase_2": {
+      "location": "Infantry Training Centre (ITC) Catterick",
+      "duration_weeks": 24,
+      "modules": [
+        {
+          "week": "1-4",
+          "subject": "Infantry Tactics Fundamentals",
+          "topics": ["Section tactics", "Infantry skills", "Weapon operations", "Combat drills"]
+        },
+        {
+          "week": "5-8",
+          "subject": "Advanced Fieldcraft",
+          "topics": ["Reconnaissance", "Surveillance", "Camouflage", "Advanced navigation"]
+        },
+        {
+          "week": "9-12",
+          "subject": "Leadership & Command",
+          "topics": ["Command principles", "Leadership under pressure", "Decision making", "Team management"]
+        },
+        {
+          "week": "13-16",
+          "subject": "Complex Operations",
+          "topics": ["Offensive operations", "Defensive operations", "Patrol operations", "Casualty management"]
+        },
+        {
+          "week": "17-20",
+          "subject": "Advanced Combat",
+          "topics": ["Urban operations", "Night operations", "Chemical/Bio warfare", "Casualty evacuation"]
+        },
+        {
+          "week": "21-24",
+          "subject": "Final Exercises & Assessments",
+          "topics": ["Field exercises", "Written exams", "Practical assessments", "Final evaluation"]
+        }
+      ],
+      "pass_rate": "90%"
+    },
+    "cavalry_phase_2": {
+      "location": "Royal Armoured Corps Centre (RACC) Bovington",
+      "duration_weeks": 20,
+      "specialization": "Vehicle operations and armoured tactics",
+      "vehicles": ["Ajax", "Warrior", "FV432"],
+      "modules": [
+        {"subject": "Vehicle Command", "duration_weeks": 4},
+        {"subject": "Gunnery", "duration_weeks": 6},
+        {"subject": "Armoured Tactics", "duration_weeks": 5},
+        {"subject": "Vehicle Maintenance", "duration_weeks": 3},
+        {"subject": "Combat Exercises", "duration_weeks": 2}
+      ]
+    },
+    "artillery_phase_2": {
+      "location": "Royal Artillery Centre (RAC) Larkhill",
+      "duration_weeks": 20,
+      "specialization": "Gunnery and fire support",
+      "equipment": ["AS90", "105mm Light Gun", "Mortar Systems"],
+      "modules": [
+        {"subject": "Gunnery Principles", "duration_weeks": 6},
+        {"subject": "Fire Control Systems", "duration_weeks": 4},
+        {"subject": "Gun Crew Operations", "duration_weeks": 5},
+        {"subject": "Counter-Battery Operations", "duration_weeks": 3},
+        {"subject": "Advanced Exercises", "duration_weeks": 2}
+      ]
+    },
+    "engineers_phase_2": {
+      "location": "Royal Engineers Centre (REC) Chatham",
+      "duration_weeks": 20,
+      "specialization": "Combat engineering",
+      "modules": [
+        {"subject": "Combat Engineering Skills", "duration_weeks": 6},
+        {"subject": "Explosives & Demolitions", "duration_weeks": 4},
+        {"subject": "Bridge & Obstacle Operations", "duration_weeks": 5},
+        {"subject": "Vehicle Recovery", "duration_weeks": 3},
+        {"subject": "Field Exercises", "duration_weeks": 2}
+      ]
+    },
+    "signals_phase_2": {
+      "location": "Royal Signals Centre (RSC) Blandford",
+      "duration_weeks": 20,
+      "specialization": "Communications and IT",
+      "equipment": ["BOWMAN Radio", "FALCON System", "Satellite Comms"],
+      "modules": [
+        {"subject": "Radio Operations", "duration_weeks": 6},
+        {"subject": "Network Management", "duration_weeks": 4},
+        {"subject": "IT Systems Support", "duration_weeks": 5},
+        {"subject": "Signal Procedures", "duration_weeks": 3},
+        {"subject": "Field Exercises", "duration_weeks": 2}
+      ]
+    }
+  },
+  "junior_entry_training": {
+    "afc_harrogate": {
+      "name": "Army Foundation College Harrogate",
+      "entry_age": 16,
+      "duration_years": 3,
+      "location": "Harrogate, North Yorkshire",
+      "description": "Combined military and academic training for future army leaders",
+      "year_1": {
+        "focus": "Military Foundation Training & GCSE/A-Level Preparation",
+        "modules": ["Military Skills", "Weapon Handling", "Leadership", "Academic Studies", "PE & Fitness"]
+      },
+      "year_2": {
+        "focus": "Advanced Military Training & Specialist Development",
+        "modules": ["Advanced Tactics", "Specialist Skills", "Leadership Development", "Academic Studies", "Command Experience"]
+      },
+      "year_3": {
+        "focus": "Officer Development & Final Assessment",
+        "modules": ["Officer Training", "Command Courses", "Advanced Leadership", "Final Assessment", "Commissioning Pathway"]
+      },
+      "exit_options": [
+        "Direct commission as Second Lieutenant",
+        "NCO entry at Sergeant level",
+        "Regular soldier entry"
+      ],
+      "accelerated_promotion": true,
+      "pass_rate": "92%"
+    }
+  },
+  "officer_training": {
+    "sandhurst": {
+      "name": "Royal Military Academy Sandhurst",
+      "location": "Camberley, Surrey",
+      "duration_weeks": 48,
+      "description": "Officer commissioning course for all British Army officers",
+      "entry_requirements": [
+        "University degree (2:2 or above)",
+        "AOSB (Army Officer Selection Board) pass",
+        "Age 18-27 at entry",
+        "Full background clearance"
+      ],
+      "terms": [
+        {
+          "term": "Term 1: Foundation",
+          "weeks": 8,
+          "focus": "Military foundations, drill, weapon handling, physical conditioning"
+        },
+        {
+          "term": "Term 2: Intermediate",
+          "weeks": 8,
+          "focus": "Tactical instruction, leadership, command exercises, advanced fieldcraft"
+        },
+        {
+          "term": "Term 3: Advanced",
+          "weeks": 8,
+          "focus": "Advanced tactics, complex operations, command of men"
+        },
+        {
+          "term": "Term 4: Commissioning",
+          "weeks": 24,
+          "focus": "Phase 2 specialist training based on chosen regiment"
+        }
+      ],
+      "passing_criteria": [
+        "Pass weapon handling test",
+        "Pass fitness assessments",
+        "Pass tactical assessments",
+        "Pass leadership evaluations",
+        "Medical fitness"
+      ],
+      "failure_rate": "15%",
+      "commissioning_rank": "Second Lieutenant"
+    },
+    "regimental_selection_board": {
+      "name": "Regimental Selection Board",
+      "timing": "Final phase at Sandhurst",
+      "duration_days": 3,
+      "description": "Selection interview for specific regiment posting",
+      "process": [
+        "Initial interview with recruiting officer",
+        "Interview with senior regiment officers",
+        "Assessment of fit with regiment culture",
+        "Final selection decision"
+      ],
+      "outcome_options": [
+        "Selected for regiment of choice",
+        "Offered alternative regiment",
+        "Returned for reselection"
+      ]
+    }
+  },
+  "sandhurst_phase_2": {
+    "name": "Phase 2 Officer Specialist Training",
+    "duration_weeks": 24,
+    "description": "Role-specific training after officer commissioning",
+    "infantry_specialist": {
+      "location": "ITC Catterick",
+      "duration_weeks": 24,
+      "content": "Infantry tactics, command of platoons, leadership development"
+    },
+    "cavalry_specialist": {
+      "location": "RACC Bovington",
+      "duration_weeks": 20,
+      "content": "Armoured tactics, vehicle command, gunnery officer training"
+    },
+    "artillery_specialist": {
+      "location": "RAC Larkhill",
+      "duration_weeks": 20,
+      "content": "Fire support, gunnery, battery command"
+    },
+    "engineer_specialist": {
+      "location": "REC Chatham",
+      "duration_weeks": 20,
+      "content": "Combat engineering, command of engineers"
+    }
+  },
+  "uksf_selection": {
+    "name": "UKSF Selection",
+    "description": "Gruelling selection process for UK Special Forces",
+    "eligibility": {
+      "rank": "L/Cpl and above",
+      "service": "Minimum 1 year in regiment",
+      "fitness": "Exceptional - must exceed standard requirements",
+      "medical": "Full health clearance",
+      "security": "Enhanced clearance required"
+    },
+    "sas_selection": {
+      "name": "22 SAS Selection Course",
+      "location": "Hereford, England",
+      "duration_weeks": 3,
+      "initial_phase": {
+        "name": "Fitness Phase",
+        "duration_days": 7,
+        "description": "Extreme physical conditioning tests",
+        "pass_rate": "30%"
+      },
+      "main_selection": {
+        "name": "Endurance Phase",
+        "duration_days": 14,
+        "description": "Navigation exercises with heavy loads in harsh conditions",
+        "pass_rate": "20%",
+        "elements": ["Long-distance marches", "Mountain navigation", "Sleep deprivation", "Combat scenarios"]
+      },
+      "pass_criteria": [
+        "Complete 'Long Drag' (40+ miles with loaded pack)",
+        "Complete navigation exercises",
+        "Demonstrate mental resilience",
+        "Show advanced fieldcraft"
+      ],
+      "overall_pass_rate": "10%",
+      "rank_on_entry": "Trooper (all ranks revert)",
+      "specializations_post_selection": ["Counter-Terrorism", "Direct Action", "Special Reconnaissance", "HALO/HAHO"]
+    },
+    "sbs_selection": {
+      "name": "Special Boat Service Selection",
+      "location": "Poole, Dorset",
+      "duration_weeks": 8,
+      "phase_1": {
+        "name": "Foundation Phase",
+        "duration_weeks": 4,
+        "focus": "Water confidence, swimming, diving basics",
+        "pass_rate": "60%"
+      },
+      "phase_2": {
+        "name": "Combat Phase",
+        "duration_weeks": 4,
+        "focus": "Combat swimming, maritime operations, insertion techniques",
+        "pass_rate": "30%"
+      },
+      "overall_pass_rate": "15%",
+      "rank_on_entry": "Marine (all ranks revert)",
+      "requirement_pre_selection": "Marine commando training (Royal Marines)"
+    },
+    "srr_selection": {
+      "name": "Special Reconnaissance Regiment Selection",
+      "location": "Various",
+      "duration_weeks": 6,
+      "focus": "Surveillance, reconnaissance, technical operations",
+      "pass_rate": "25%",
+      "rank_on_entry_nco": "Operator (NCOs revert)",
+      "intelligence_requirement": true
+    }
+  },
+  "command_courses": [
+    {
+      "name": "Young Officers' Course",
+      "rank_eligible": "Second Lieutenant",
+      "duration_weeks": 4,
+      "location": "Warminster",
+      "focus": "Officer tactics and command"
+    },
+    {
+      "name": "Junior Leaders' Tactics Course",
+      "rank_eligible": "Corporal",
+      "duration_weeks": 3,
+      "location": "Varies",
+      "focus": "Section-level tactics and leadership"
+    },
+    {
+      "name": "Company Commanders' Course",
+      "rank_eligible": "Captain",
+      "duration_weeks": 6,
+      "location": "Warminster",
+      "focus": "Company command and management"
+    },
+    {
+      "name": "Battalion Commanders' Course",
+      "rank_eligible": "Major/Lieutenant Colonel",
+      "duration_weeks": 8,
+      "location": "Camberly",
+      "focus": "Battalion-level command"
+    }
+  ]
+}

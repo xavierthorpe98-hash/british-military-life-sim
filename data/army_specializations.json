@@ -1,0 +1,310 @@
+{
+  "infantry_specializations": [
+    {
+      "name": "Infantry Tactics & Leadership",
+      "duration_weeks": 24,
+      "description": "Core infantry training for all soldiers",
+      "rank_eligible": ["Private", "Lance Corporal"],
+      "progression": "Required before promotion"
+    },
+    {
+      "name": "Section Commander",
+      "duration_weeks": 3,
+      "description": "Leadership of infantry sections",
+      "rank_eligible": ["Lance Corporal", "Corporal"],
+      "prerequisite": "Infantry Phase 2 complete",
+      "promotion_to": "Corporal"
+    },
+    {
+      "name": "Platoon Sergeant Major (PSM)",
+      "duration_weeks": 4,
+      "description": "Senior NCO leadership and platoon management",
+      "rank_eligible": ["Sergeant", "Staff Sergeant"],
+      "prerequisite": "Section Commander complete",
+      "promotion_to": "Staff Sergeant"
+    },
+    {
+      "name": "JTAC (Joint Terminal Attack Controller)",
+      "duration_weeks": 6,
+      "description": "Coordinate air strikes and artillery support",
+      "rank_eligible": ["Lance Corporal", "Corporal", "Sergeant"],
+      "prerequisite": "Infantry Phase 2 complete, 1 year service",
+      "qualifications": ["Air Operations", "Fire Support Coordination"],
+      "demand_high": true
+    },
+    {
+      "name": "Close Combat Mêlée Weapon (CCMW) Instructor",
+      "duration_weeks": 2,
+      "description": "Training in hand-to-hand combat",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "prerequisite": "Excellent combat fitness"
+    },
+    {
+      "name": "Urban Operations Specialist",
+      "duration_weeks": 3,
+      "description": "Operations in urban environments",
+      "rank_eligible": ["Lance Corporal", "Corporal", "Sergeant"],
+      "prerequisite": "Infantry Phase 2 complete"
+    }
+  ],
+  "support_specializations": [
+    {
+      "name": "P Coy (Parachute Course)",
+      "duration_weeks": 3,
+      "description": "Airborne operations training - MANDATORY for airborne units",
+      "rank_eligible": ["All ranks"],
+      "locations": ["RAF Brize Norton", "Joint Parachute School"],
+      "requirement_for": ["Parachute Regiment", "Pathfinders", "SFSG", "Airborne Artillery", "Air Assault"],
+      "difficulty": "High",
+      "pass_rate": "65%"
+    },
+    {
+      "name": "AACC (All Arms Commando Course)",
+      "duration_weeks": 3,
+      "description": "Commando training for all corps - MANDATORY for commando units",
+      "rank_eligible": ["All ranks"],
+      "locations": ["CTC Lympstone, Devon"],
+      "requirement_for": ["Royal Marines", "29 Commando Regiment RA", "Commando Support Units"],
+      "difficulty": "Very High",
+      "pass_rate": "50%",
+      "components": ["Mountain & Arctic Warfare Training", "Amphibious Operations", "Extreme Fitness Tests"]
+    },
+    {
+      "name": "Combat Medic",
+      "duration_weeks": 10,
+      "description": "Emergency medical treatment on the battlefield",
+      "rank_eligible": ["All ranks"],
+      "prerequisite": "Infantry Phase 2 complete",
+      "qualifications": ["EFAS (Emergency First Aid at Sea)", "Combat Casualty Care"],
+      "corps": ["Royal Army Medical Corps", "All Infantry Units"]
+    },
+    {
+      "name": "EOD (Explosive Ordnance Disposal) Operator",
+      "duration_weeks": 24,
+      "description": "Bomb disposal and explosives management",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "prerequisite": "3+ years service",
+      "corps": ["Royal Engineers", "26 Engineer Regiment"],
+      "danger_high": true,
+      "demand_high": true
+    },
+    {
+      "name": "Diver (Combat Diver)",
+      "duration_weeks": 8,
+      "description": "Underwater operations and diving",
+      "rank_eligible": ["Lance Corporal", "Corporal", "Sergeant"],
+      "prerequisite": "Swimming proficiency, 2+ years service",
+      "qualifications": ["PADI Certification", "Combat Diving"],
+      "specialization_for": ["Royal Engineers", "Special Forces", "Navy Support"],
+      "demand_high": true
+    },
+    {
+      "name": "Mountain Guide",
+      "duration_weeks": 6,
+      "description": "Mountain and alpine warfare training",
+      "rank_eligible": ["All ranks"],
+      "prerequisite": "Infantry Phase 2 complete",
+      "qualifications": ["IFMGA Guide Rating", "Mountain Navigation"],
+      "required_for": ["Mountain Regiment Postings", "Pathfinders"]
+    },
+    {
+      "name": "Sniper (Advanced Marksmanship)",
+      "duration_weeks": 6,
+      "description": "Advanced rifle marksmanship and sniping",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "prerequisite": "4+ years service, Excellent marksmanship",
+      "qualifications": ["Sniper Badge", "Advanced Fieldcraft"],
+      "demand_high": true
+    },
+    {
+      "name": "Instructor (Training)",
+      "duration_weeks": 4,
+      "description": "Instructor qualification for training other soldiers",
+      "rank_eligible": ["Lance Corporal", "Corporal", "Sergeant"],
+      "prerequisite": "2+ years service, Excellent training aptitude",
+      "qualifications": ["Training Instructor Badge"]
+    },
+    {
+      "name": "Logistics & Supply Management",
+      "duration_weeks": 6,
+      "description": "Supply chain and logistics operations",
+      "rank_eligible": ["All ranks"],
+      "corps": ["Royal Logistic Corps"],
+      "qualifications": ["Logistics Operations Certificate"]
+    }
+  ],
+  "advanced_specializations": [
+    {
+      "name": "Advanced Close Quarters Battle (ACQB)",
+      "duration_weeks": 4,
+      "description": "Advanced CQB for high-threat environments",
+      "rank_eligible": ["Sergeant", "Staff Sergeant"],
+      "prerequisite": "6+ years service, UKSF consideration",
+      "locations": ["CTSFO (Counter Terrorism Specialist Firearms Officer) Facilities"]
+    },
+    {
+      "name": "HALO/HAHO (High Altitude Operations)",
+      "duration_weeks": 3,
+      "description": "High altitude parachute insertions",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "prerequisite": "P Coy complete, 2+ years service",
+      "qualifications": ["HALO/HAHO Badge"],
+      "required_for": ["Special Forces", "SFSG", "Advanced Operations"]
+    },
+    {
+      "name": "Breacher (Advanced Entry)",
+      "duration_weeks": 3,
+      "description": "Breaching and entry techniques",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "prerequisite": "4+ years service",
+      "required_for": ["Counter-Terrorism Operations", "Special Forces"]
+    },
+    {
+      "name": "Vehicle Commander",
+      "duration_weeks": 2,
+      "description": "Command of armoured vehicles",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "prerequisite": "2+ years service",
+      "vehicles": ["Warriors", "Mastiffs", "Jackal", "Ajax"]
+    },
+    {
+      "name": "Forward Observer (Fire Support)",
+      "duration_weeks": 4,
+      "description": "Coordinate fire support from forward positions",
+      "rank_eligible": ["Lance Corporal", "Corporal"],
+      "prerequisite": "Infantry Phase 2 complete",
+      "qualifications": ["Fire Support Badge"]
+    }
+  ],
+  "regimental_specializations": {
+    "guards_regiments": [
+      {
+        "name": "Ceremonial Duties",
+        "description": "Public duties and ceremonial guard",
+        "required": true,
+        "duration_weeks": 4,
+        "locations": ["Horse Guards", "Wellington Barracks", "Windsor Castle"]
+      },
+      {
+        "name": "Guards P Coy",
+        "description": "Parachute training for Guards regiments",
+        "duration_weeks": 3,
+        "note": "P Coy is a REQUIREMENT to join Guards Parachute Company"
+      }
+    ],
+    "rifles_regiment": [
+      {
+        "name": "Light Infantry Tactics",
+        "description": "Advanced light role infantry operations",
+        "duration_weeks": 2
+      }
+    ],
+    "parachute_regiment": [
+      {
+        "name": "Advanced Airborne Operations",
+        "description": "HALO/HAHO and advanced airborne tactics",
+        "prerequisite": "P Coy",
+        "duration_weeks": 4
+      }
+    ],
+    "cavalry_regiments": [
+      {
+        "name": "Armoured Vehicle Operations (Ajax/Warrior)",
+        "description": "Operation of armoured cavalry vehicles",
+        "duration_weeks": 3
+      }
+    ],
+    "royal_artillery": [
+      {
+        "name": "Fire Control Systems",
+        "description": "Advanced artillery fire control",
+        "duration_weeks": 4
+      },
+      {
+        "name": "Counter-Battery Radar Operations",
+        "description": "Operation of counter-battery radar systems",
+        "duration_weeks": 3
+      }
+    ],
+    "royal_engineers": [
+      {
+        "name": "Advanced Combat Engineering",
+        "description": "Bridge laying, demolitions, obstacle clearance",
+        "duration_weeks": 4
+      }
+    ],
+    "royal_signals": [
+      {
+        "name": "Advanced Communications Systems",
+        "description": "BOWMAN radio systems and comms management",
+        "duration_weeks": 3
+      }
+    ],
+    "army_air_corps": [
+      {
+        "name": "Apache Attack Helicopter Tactics",
+        "description": "Apache AH-64D operation and tactics",
+        "duration_weeks": 8,
+        "prerequisite": "Rotary Wing Pilot Course"
+      },
+      {
+        "name": "Chinook Transport Operations",
+        "description": "CH-47 Chinook transport operations",
+        "duration_weeks": 6,
+        "prerequisite": "Rotary Wing Pilot Course"
+      },
+      {
+        "name": "Lynx/Scout Reconnaissance Operations",
+        "description": "Light helicopter operations",
+        "duration_weeks": 4,
+        "prerequisite": "Rotary Wing Pilot Course"
+      }
+    ]
+  },
+  "promotion_courses": [
+    {
+      "name": "Potential Non-Commissioned Officer (PNCO) Course",
+      "duration_weeks": 4,
+      "description": "Foundation for NCO progression",
+      "rank_eligible": ["Lance Corporal"],
+      "promotion_to": "Corporal",
+      "mandatory": true
+    },
+    {
+      "name": "Sergeant's Course",
+      "duration_weeks": 6,
+      "description": "Leadership and tactical proficiency for sergeants",
+      "rank_eligible": ["Corporal"],
+      "promotion_to": "Sergeant",
+      "mandatory": true,
+      "prerequisites": ["PNCO Course", "3+ years service"]
+    },
+    {
+      "name": "Staff Sergeant's Tactics Course",
+      "duration_weeks": 6,
+      "description": "Advanced leadership for senior NCOs",
+      "rank_eligible": ["Sergeant"],
+      "promotion_to": "Staff Sergeant",
+      "mandatory": true,
+      "prerequisites": ["Sergeant's Course", "5+ years service"]
+    },
+    {
+      "name": "Warrant Officer (WO2) Selection Board",
+      "duration_weeks": 2,
+      "description": "Board interview and assessment for WO2",
+      "rank_eligible": ["Staff Sergeant"],
+      "promotion_to": "Warrant Officer Class 2",
+      "mandatory": true,
+      "prerequisites": ["Staff Sergeant's Tactics Course", "8+ years service"]
+    },
+    {
+      "name": "Warrant Officer (WO1) Selection Board",
+      "duration_weeks": 2,
+      "description": "Board interview for WO1 (highest NCO rank)",
+      "rank_eligible": ["Warrant Officer Class 2"],
+      "promotion_to": "Warrant Officer Class 1",
+      "mandatory": true,
+      "prerequisites": ["WO2 Selection Board", "12+ years service", "Regimental selection"]
+    }
+  ]
+}
