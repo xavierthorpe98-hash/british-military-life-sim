@@ -36,7 +36,7 @@ A comprehensive text-based military life simulation game featuring the British A
 - Family continuation
 
 ### Deployments & Operations
-- British military deployments (Cold War era through present)
+- British military deployments (1980s onwards)
 - UKSF deployments and counter-terrorism operations
 - Maritime counter-terrorism
 - Search and rescue operations
@@ -57,42 +57,6 @@ A comprehensive text-based military life simulation game featuring the British A
 - Military pension
 - Career to age 65
 
-## Project Structure
-
-```
-british-military-life-sim/
-├── README.md
-├── main.py
-├── config/
-│   └── settings.py
-├── data/
-│   ├── ranks.json
-│   ├── regiments.json
-│   ├── specializations.json
-│   ├── courses.json
-│   ├── deployments.json
-│   ├── medals.json
-│   ├── postings.json
-│   └── vehicles.json
-├── game/
-│   ├── __init__.py
-│   ├── character.py
-│   ├── career.py
-│   ├── military_structure.py
-│   ├── interactions.py
-│   ├── relationships.py
-│   ├── training.py
-│   ├── deployments.py
-│   └── game_engine.py
-├── ui/
-│   ├── __init__.py
-│   ├── menu.py
-│   ├── display.py
-│   └── input_handler.py
-└── saves/
-    └── .gitkeep
-```
-
 ## Installation
 
 ```bash
@@ -105,37 +69,8 @@ python main.py
 - Python 3.8+
 - No external dependencies (uses only standard library)
 
-## Development Phases
-
-### Phase 1: Core Systems (Current)
-- Character creation
-- Military hierarchy and structure
-- Basic career progression
-- Rank systems
-
-### Phase 2: Training & Specialization
-- Phase 1 & 2 training
-- Specialization courses
-- UKSF selection
-- Flying training
-
-### Phase 3: Deployments & Interactions
-- Deployment scenarios
-- Personal relationships
-- Military interactions
-- Court martials
-
-### Phase 4: Advanced Features
-- Post-service careers
-- Reservist system
-- Command positions
-- Complete career to retirement
-
 ## Game Version
 0.1.0 - Initial Development
 
 ## License
 MIT
-
-## Author
-Created by xavierthorpe98-hash
