@@ -1,0 +1,182 @@
+{
+  "weapon_systems_officer": {
+    "name": "Weapon Systems Officer (WSO)",
+    "description": "Officer responsible for managing aircraft weapon systems, sensors, and tactical operations",
+    "rank_eligible": ["Pilot Officer", "Flying Officer", "Flight Lieutenant"],
+    "aircraft_roles": [
+      {"aircraft": "Typhoon FGR4", "role": "Air Defence Officer"},
+      {"aircraft": "Tornado GR4", "role": "Weapons Officer"},
+      {"aircraft": "Nimrod MRA4", "role": "Tactical Coordinator"}
+    ],
+    "training": "Integrated into fast jet OCU (20+ weeks)",
+    "specializations": [
+      "Air-to-Air Weapons",
+      "Air-to-Surface Weapons",
+      "Tactical Coordination",
+      "Sensor Management",
+      "Electronic Warfare"
+    ]
+  },
+  "weapon_systems_operator": {
+    "name": "Weapon Systems Operator (WSO)",
+    "description": "Senior NCO responsible for aircraft weapons, sensors, and combat systems",
+    "rank_eligible": ["Sergeant", "Staff Sergeant", "Flight Sergeant"],
+    "aircrew_category": "Specialist Crew",
+    "aircraft_specializations": [
+      {"aircraft": "Nimrod MRA4", "role": "Acoustic Operator"},
+      {"aircraft": "Nimrod MRA4", "role": "Tactical Coordinator"},
+      {"aircraft": "Chinook HC6", "role": "Loadmaster"},
+      {"aircraft": "C-130J Hercules", "role": "Loadmaster"}
+    ],
+    "training_duration_weeks": 16,
+    "qualifications": [
+      "Weapon Systems Management",
+      "Tactical Coordination",
+      "Sensor Operations",
+      "Combat Systems"
+    ]
+  },
+  "pilot_specializations": [
+    {
+      "name": "Fast Jet Pilot",
+      "aircraft": ["Typhoon FGR4", "Hawk T1/T2"],
+      "training_months": 24,
+      "specializations": ["Air Defence", "Ground Attack", "Air Combat", "Low-Level Flying"],
+      "progression": "Squadron Leader or Wing Commander"
+    },
+    {
+      "name": "Transport Pilot",
+      "aircraft": ["C-130 Hercules", "A400M", "C-17 Globemaster", "Voyager"],
+      "training_months": 18,
+      "specializations": ["Tactical Airlift", "Strategic Transport", "AAR Operations"],
+      "progression": "Squadron Leader or Wing Commander"
+    },
+    {
+      "name": "Helicopter Pilot",
+      "aircraft": ["Chinook HC6", "Merlin HC3", "Puma HC1", "Sea King HAR3"],
+      "training_months": 16,
+      "specializations": ["Tactical Transport", "Search & Rescue", "Special Operations Support"],
+      "progression": "Squadron Leader or Wing Commander"
+    },
+    {
+      "name": "Maritime Patrol Pilot",
+      "aircraft": ["Nimrod MRA4"],
+      "training_months": 20,
+      "specializations": ["Maritime Patrol", "Anti-Submarine Warfare", "Reconnaissance"],
+      "progression": "Squadron Leader"
+    }
+  ],
+  "aircrew_specializations": [
+    {
+      "name": "Aircrewman (AC)",
+      "description": "Crew member supporting helicopter operations",
+      "rank_eligible": ["Senior Aircraftman", "Corporal", "Sergeant"],
+      "training_weeks": 6,
+      "specializations": [
+        "Helicopter Operations",
+        "Load Management",
+        "Communications",
+        "Safety Procedures"
+      ]
+    },
+    {
+      "name": "Loadmaster (LM)",
+      "description": "Specialist responsible for load planning and aircraft ballistics",
+      "rank_eligible": ["Sergeant", "Staff Sergeant"],
+      "training_weeks": 8,
+      "aircraft": ["C-130 Hercules", "A400M", "C-17 Globemaster", "Voyager"],
+      "specializations": [
+        "Load Planning",
+        "Aircraft Ballistics",
+        "Cargo Handling",
+        "Parachute Operations"
+      ]
+    },
+    {
+      "name": "Flight Engineer",
+      "description": "Specialist responsible for aircraft systems management",
+      "rank_eligible": ["Sergeant", "Staff Sergeant"],
+      "training_weeks": 10,
+      "aircraft": ["C-130 Hercules", "VC-10", "Voyager"],
+      "specializations": [
+        "Aircraft Systems",
+        "Engine Management",
+        "Fuel Management",
+        "System Troubleshooting"
+      ]
+    },
+    {
+      "name": "Tactician (Nimrod)",
+      "description": "Specialist coordinator for tactical operations",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "training_weeks": 12,
+      "aircraft": ["Nimrod MRA4"],
+      "specializations": [
+        "Tactical Coordination",
+        "Sensor Management",
+        "Communications",
+        "Maritime Operations"
+      ]
+    },
+    {
+      "name": "Acoustic Operator (Nimrod)",
+      "description": "Specialist in acoustic sensor operations for ASW",
+      "rank_eligible": ["Corporal", "Sergeant"],
+      "training_weeks": 12,
+      "aircraft": ["Nimrod MRA4"],
+      "specializations": [
+        "Acoustic Sensors",
+        "Sonobuoy Operations",
+        "Submarine Detection",
+        "Data Analysis"
+      ]
+    }
+  ],
+  "flying_instructor_specialization": {
+    "name": "Flying Instructor (QFI - Qualified Flying Instructor)",
+    "description": "Senior pilot qualified to instruct other pilots",
+    "rank_eligible": ["Flying Officer", "Flight Lieutenant"],
+    "prerequisite": "600+ flying hours, excellent flying record",
+    "training_duration_weeks": 6,
+    "posting": "6 Flying Training School or 11 Flying Training School",
+    "specializations": [
+      "Elementary Flying Training",
+      "Advanced Flying Instruction",
+      "Tactical Instruction",
+      "Fast Jet Instruction",
+      "Helicopter Instruction"
+    ]
+  },
+  "nco_pilot_entry": {
+    "name": "NCO Pilot Entry",
+    "description": "Career progression from NCO to Pilot Officer",
+    "eligibility": {
+      "rank": "Sergeant, Staff Sergeant, or higher NCO",
+      "service": "Minimum 8 years service",
+      "age": "Under 35 years",
+      "medical": "Full flying medical examination"
+    },
+    "selection": "AOSB (Army Officer Selection Board) - specialized for NCO pilots",
+    "training": {
+      "officer_initial_training": "6 weeks (Fast-track Cranwell)",
+      "elementary_flying_training": "6 months",
+      "fast_jet_training": "18 months (Fast Jet Path) or 12 months (Rotary Wing Path)"
+    },
+    "commissioning": "Pilot Officer upon completion",
+    "accelerated_promotion": true,
+    "initial_posting": "Fast Jet OCU or Rotary Wing OCU as commissioned pilot"
+  },
+  "master_pilot_specialization": {
+    "name": "Master Pilot",
+    "description": "Senior pilot with exceptional flying and command experience",
+    "rank_eligible": ["Wing Commander"],
+    "flying_hours_required": "3000+",
+    "specializations": [
+      "Advanced Tactics",
+      "Command of Squadrons",
+      "Operational Planning",
+      "Strategic Flying Operations"
+    ],
+    "responsibility": "Squadron command, mentoring junior pilots, operational planning"
+  }
+}

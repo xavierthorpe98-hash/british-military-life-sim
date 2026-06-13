@@ -1,0 +1,359 @@
+{
+  "elementary_flying_training": {
+    "name": "Elementary Flying Training",
+    "duration_hours": 150,
+    "aircraft": "Beechcraft Texan T6",
+    "locations": ["Cranwell, Lincolnshire", "Babington Hall"],
+    "stages": [
+      {
+        "stage": "Ground School",
+        "duration_weeks": 6,
+        "content": ["Aerodynamics", "Aircraft systems", "Navigation", "Meteorology", "Air law"]
+      },
+      {
+        "stage": "Elementary Flying",
+        "duration_hours": 85,
+        "content": ["Basic flying skills", "Navigation", "Instrument flying", "Multi-engine introduction"]
+      },
+      {
+        "stage": "Fast Jet Path Selection",
+        "duration_weeks": 4,
+        "content": ["Fast jet suitability assessment", "High-performance aircraft handling", "Selection examination"]
+      }
+    ],
+    "assessment": "Pass/Fail flying test and written examination",
+    "pass_rate": "78%",
+    "progression": "Fast Jet Elementary Flying Training (FJEFT) or Rotary Wing Elementary Flying Training (RWEFT)"
+  },
+  "fast_jet_elementary_training": {
+    "name": "Fast Jet Elementary Flying Training (FJEFT)",
+    "duration_hours": 200,
+    "aircraft": "Hawk T1",
+    "location": "Valley, Wales",
+    "stages": [
+      {
+        "stage": "Handling",
+        "duration_weeks": 8,
+        "hours": 60,
+        "content": ["Advanced handling", "Acrobatics", "Formation flying", "Low-level flying"]
+      },
+      {
+        "stage": "Tactics & Navigation",
+        "duration_weeks": 8,
+        "hours": 70,
+        "content": ["Tactical flying", "Air combat tactics", "Low-level navigation", "High-g manoeuvres"]
+      },
+      {
+        "stage": "Fast Jet Operations",
+        "duration_weeks": 8,
+        "hours": 70,
+        "content": ["Weapons systems", "Tactical employment", "Combat procedures", "Advanced tactics"]
+      }
+    ],
+    "assessment": "Progressive flying test and tactical assessment",
+    "pass_rate": "82%",
+    "progression": "Fast Jet Operational Conversion Unit (OCU)"
+  },
+  "rotary_wing_elementary_training": {
+    "name": "Rotary Wing Elementary Flying Training (RWEFT)",
+    "duration_hours": 120,
+    "aircraft": "Beechcraft Texan T6 / Squirrel Helicopter",
+    "location": "Shawbury, Shropshire",
+    "stages": [
+      {
+        "stage": "Helicopter Handling",
+        "duration_weeks": 6,
+        "hours": 40,
+        "content": ["Hover control", "Basic flying", "Navigation", "Emergency procedures"]
+      },
+      {
+        "stage": "Advanced Helicopter Operations",
+        "duration_weeks": 6,
+        "hours": 50,
+        "content": ["Formation flying", "Low-level operations", "Instrument flying", "Tactical procedures"]
+      },
+      {
+        "stage": "Helicopter Role Selection",
+        "duration_weeks": 4,
+        "hours": 30,
+        "content": ["Multi-engine introduction", "Role suitability assessment", "Selection examination"]
+      }
+    ],
+    "assessment": "Flying competency tests and tactical assessment",
+    "pass_rate": "85%",
+    "progression": "Rotary Wing OCU (Chinook, Merlin, Puma, etc.)"
+  },
+  "fast_jet_advanced_training": {
+    "name": "Fast Jet Advanced Training",
+    "duration_weeks": 6,
+    "aircraft": "Hawk T2",
+    "location": "Valley, Wales",
+    "squadron": "100 Squadron RAF",
+    "content": [
+      "Advanced air combat tactics",
+      "Multi-target engagement",
+      "Defensive counter-air",
+      "Fast jet operations review"
+    ],
+    "assessment": "Final flying examination",
+    "progression": "OCU (Typhoon, Tornado, or other fast jet aircraft)"
+  },
+  "multi_engine_training": {
+    "name": "Multi-Engine Flying Training",
+    "duration_hours": 50,
+    "aircraft": "Beechcraft King Air",
+    "location": "Cranwell, Lincolnshire",
+    "content": [
+      "Twin-engine aerodynamics",
+      "Engine failure procedures",
+      "Advanced instrument flying",
+      "Navigation & systems"
+    ],
+    "assessment": "Multi-engine flying test",
+    "progression": "Transport aircraft OCU or continuation training"
+  },
+  "fast_jet_weapons_training": {
+    "name": "Fast Jet Weapons Training",
+    "duration_weeks": 4,
+    "location": "RAF bases",
+    "content": [
+      "Air-to-air missile employment",
+      "Air-to-surface weapons",
+      "Guns employment",
+      "Tactical weapon delivery",
+      "Rules of engagement"
+    ],
+    "assessment": "Weapons employment test"
+  },
+  "helicopter_operational_training": {
+    "name": "Helicopter Operational Flying Training (HOFT)",
+    "duration_hours": 150,
+    "aircraft": "Varies by role (Chinook, Merlin, Puma, etc.)",
+    "location": "Squadron bases",
+    "stages": [
+      {
+        "stage": "Type Conversion",
+        "duration_weeks": 4,
+        "content": ["Aircraft systems", "Emergency procedures", "Basic flying", "Handling characteristics"]
+      },
+      {
+        "stage": "Role Conversion",
+        "duration_weeks": 8,
+        "content": ["Tactical procedures", "Troop insertion", "Equipment operations", "Advanced tactics"]
+      },
+      {
+        "stage": "Advanced Operations",
+        "duration_weeks": 6,
+        "content": ["Night operations", "Low-level flying", "Complex scenarios", "Combat procedures"]
+      }
+    ],
+    "assessment": "Progressive flying test and tactical assessment",
+    "pass_rate": "88%"
+  },
+  "fast_jet_operational_conversion_units": {
+    "typhoon_ocu": {
+      "name": "Typhoon Operational Conversion Unit",
+      "location": "Coningsby, Lincolnshire",
+      "duration_weeks": 26,
+      "aircraft": "Typhoon FGR4",
+      "role": "Air Defence & Ground Attack Fighter",
+      "syllabus": [
+        {"week": "1-3", "content": "Systems familiarization & aircraft handling"},
+        {"week": "4-8", "content": "Advanced handling & air combat"},
+        {"week": "9-14", "content": "Weapons employment & tactical procedures"},
+        {"week": "15-20", "content": "Complex tactical scenarios & night operations"},
+        {"week": "21-26", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Air Defence", "Ground Attack", "Reconnaissance"],
+      "pass_rate": "92%"
+    },
+    "hawk_ocu": {
+      "name": "Hawk Operational Conversion Unit",
+      "location": "Valley, Wales",
+      "duration_weeks": 10,
+      "aircraft": "Hawk T1/T2",
+      "role": "Advanced Training & Tactical Fast Jet",
+      "syllabus": [
+        {"week": "1-2", "content": "Systems & aircraft handling"},
+        {"week": "3-5", "content": "Advanced flying & tactics"},
+        {"week": "6-8", "content": "Complex scenarios & evaluation"},
+        {"week": "9-10", "content": "Final assessment"}
+      ],
+      "pass_rate": "95%"
+    },
+    "tornado_ocu": {
+      "name": "Tornado Operational Conversion Unit",
+      "location": "Marham, Norfolk",
+      "duration_weeks": 26,
+      "aircraft": "Tornado GR4",
+      "role": "Ground Attack & Tactical Bombing",
+      "syllabus": [
+        {"week": "1-3", "content": "Systems familiarization & aircraft handling"},
+        {"week": "4-8", "content": "Low-level flying & navigation"},
+        {"week": "9-14", "content": "Weapons employment & tactical procedures"},
+        {"week": "15-20", "content": "Tactical scenarios & night operations"},
+        {"week": "21-26", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Ground Attack", "Low-Level Bombing", "Reconnaissance"],
+      "pass_rate": "90%",
+      "retirement_date": "2024"
+    }
+  },
+  "transport_operational_conversion_units": {
+    "c130_hercules_ocu": {
+      "name": "C-130J Hercules Operational Conversion Unit",
+      "location": "Brize Norton, Oxfordshire",
+      "duration_weeks": 20,
+      "aircraft": "C-130J Hercules",
+      "role": "Tactical Airlift",
+      "syllabus": [
+        {"week": "1-4", "content": "Systems & aircraft handling"},
+        {"week": "5-10", "content": "Tactical transport procedures"},
+        {"week": "11-16", "content": "Airborne operations & complex scenarios"},
+        {"week": "17-20", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Tactical Transport", "Airborne Operations", "CASEVAC"],
+      "pass_rate": "93%"
+    },
+    "c17_globemaster_ocu": {
+      "name": "C-17 Globemaster III Operational Conversion Unit",
+      "location": "Brize Norton, Oxfordshire",
+      "duration_weeks": 18,
+      "aircraft": "C-17 Globemaster III",
+      "role": "Strategic Airlift",
+      "syllabus": [
+        {"week": "1-4", "content": "Systems familiarization & aircraft handling"},
+        {"week": "5-9", "content": "Strategic transport procedures"},
+        {"week": "10-14", "content": "Complex operations & tactical procedures"},
+        {"week": "15-18", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Strategic Airlift", "Heavy Equipment Transport", "Global Operations"],
+      "pass_rate": "94%"
+    },
+    "a400m_ocu": {
+      "name": "A400M Operational Conversion Unit",
+      "location": "Brize Norton, Oxfordshire",
+      "duration_weeks": 20,
+      "aircraft": "Airbus A400M",
+      "role": "Tactical & Strategic Airlift",
+      "syllabus": [
+        {"week": "1-4", "content": "Systems & aircraft handling"},
+        {"week": "5-10", "content": "Tactical transport procedures"},
+        {"week": "11-16", "content": "Complex operations & global procedures"},
+        {"week": "17-20", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Tactical Airlift", "Strategic Transport", "Special Operations"],
+      "pass_rate": "92%"
+    },
+    "voyager_aar_ocu": {
+      "name": "Voyager Air-to-Air Refuelling Operational Conversion Unit",
+      "location": "Brize Norton, Oxfordshire",
+      "duration_weeks": 16,
+      "aircraft": "Airbus A330 (Voyager)",
+      "role": "Air-to-Air Refuelling & Strategic Transport",
+      "syllabus": [
+        {"week": "1-3", "content": "Systems & aircraft handling"},
+        {"week": "4-8", "content": "AAR procedures & boom operation"},
+        {"week": "9-13", "content": "Tactical AAR procedures & complex scenarios"},
+        {"week": "14-16", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Air-to-Air Refuelling", "Strategic Transport", "Multi-role Operations"],
+      "pass_rate": "95%"
+    },
+    "vc10_ocu": {
+      "name": "VC-10 Operational Conversion Unit",
+      "location": "Brize Norton, Oxfordshire",
+      "duration_weeks": 16,
+      "aircraft": "VC-10",
+      "role": "Air-to-Air Refuelling & Strategic Transport",
+      "syllabus": [
+        {"week": "1-3", "content": "Systems & aircraft handling"},
+        {"week": "4-8", "content": "AAR boom operation & procedures"},
+        {"week": "9-13", "content": "Tactical AAR & complex scenarios"},
+        {"week": "14-16", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Air-to-Air Refuelling", "Strategic Transport"],
+      "pass_rate": "94%",
+      "retirement_date": "2024"
+    },
+    "nimrod_ocu": {
+      "name": "Nimrod Operational Conversion Unit",
+      "location": "Kinloss, Scotland",
+      "duration_weeks": 20,
+      "aircraft": "Nimrod MRA4",
+      "role": "Maritime Patrol & Anti-Submarine Warfare",
+      "syllabus": [
+        {"week": "1-4", "content": "Systems & aircraft handling"},
+        {"week": "5-10", "content": "Maritime patrol procedures"},
+        {"week": "11-16", "content": "ASW tactics & sensor operations"},
+        {"week": "17-20", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Maritime Patrol", "Anti-Submarine Warfare", "Reconnaissance"],
+      "pass_rate": "88%",
+      "retirement_status": "Retired (2010)"
+    }
+  },
+  "helicopter_operational_conversion_units": {
+    "chinook_ocu": {
+      "name": "Chinook HC6 Operational Conversion Unit",
+      "location": "Odiham, Hampshire",
+      "duration_weeks": 18,
+      "aircraft": "Boeing CH-47 Chinook HC6",
+      "role": "Medium Lift Transport Helicopter",
+      "syllabus": [
+        {"week": "1-3", "content": "Systems familiarization & aircraft handling"},
+        {"week": "4-8", "content": "Tactical transport procedures"},
+        {"week": "9-14", "content": "Complex operations & tactical procedures"},
+        {"week": "15-18", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Medium Lift", "Tactical Transport", "Special Operations Support"],
+      "pass_rate": "91%"
+    },
+    "merlin_ocu": {
+      "name": "Merlin HC3 Operational Conversion Unit",
+      "location": "Akrotiri, Cyprus",
+      "duration_weeks": 16,
+      "aircraft": "Sikorsky S-92 Merlin HC3",
+      "role": "Medium Lift Transport Helicopter",
+      "syllabus": [
+        {"week": "1-3", "content": "Systems & aircraft handling"},
+        {"week": "4-8", "content": "Transport procedures & operations"},
+        {"week": "9-13", "content": "Complex scenarios & tactical procedures"},
+        {"week": "14-16", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Medium Lift", "Tactical Transport", "Overseas Operations"],
+      "pass_rate": "90%"
+    },
+    "puma_ocu": {
+      "name": "Puma HC1 Operational Conversion Unit",
+      "location": "Benson, Oxfordshire",
+      "duration_weeks": 14,
+      "aircraft": "Airbus Helicopters AS330 Puma HC1",
+      "role": "Tactical Transport Helicopter",
+      "syllabus": [
+        {"week": "1-2", "content": "Systems & aircraft handling"},
+        {"week": "3-6", "content": "Tactical transport procedures"},
+        {"week": "7-11", "content": "Complex operations & procedures"},
+        {"week": "12-14", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Tactical Transport", "Support Operations"],
+      "pass_rate": "92%"
+    },
+    "seaking_ocu": {
+      "name": "Sea King HAR3 Operational Conversion Unit",
+      "location": "Valley, Wales",
+      "duration_weeks": 14,
+      "aircraft": "Westland Sea King HAR3",
+      "role": "Search & Rescue Helicopter",
+      "syllabus": [
+        {"week": "1-2", "content": "Systems & aircraft handling"},
+        {"week": "3-6", "content": "SAR procedures & tactics"},
+        {"week": "7-11", "content": "Complex SAR scenarios & procedures"},
+        {"week": "12-14", "content": "Final evaluation & operational readiness"}
+      ],
+      "specializations": ["Search & Rescue", "Maritime Rescue", "Helicopter Operations"],
+      "pass_rate": "89%",
+      "retirement_date": "2026"
+    }
+  }
+}

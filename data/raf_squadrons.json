@@ -1,0 +1,342 @@
+{
+  "fast_jet_squadrons": [
+    {
+      "number": 1,
+      "name": "1 Squadron RAF",
+      "aircraft": "Typhoon FGR4",
+      "role": "Air Defence & Ground Attack",
+      "location": "Lossiemouth, Scotland",
+      "personnel": 250,
+      "squadrons_aircraft": 12,
+      "operational_role": "Quick Reaction Alert (QRA)",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Air Defence", "Ground Attack", "Fast Jet Operations"]
+    },
+    {
+      "number": 3,
+      "name": "3 Squadron RAF",
+      "aircraft": "Typhoon FGR4",
+      "role": "Air Defence & Ground Attack",
+      "location": "Coningsby, Lincolnshire",
+      "personnel": 250,
+      "squadrons_aircraft": 12,
+      "operational_role": "Air Defence",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Air Defence", "Ground Attack", "Fast Jet Operations"]
+    },
+    {
+      "number": 6,
+      "name": "6 Squadron RAF",
+      "aircraft": "Typhoon FGR4",
+      "role": "Air Defence",
+      "location": "Leuchars, Scotland",
+      "personnel": 250,
+      "squadrons_aircraft": 12,
+      "operational_role": "Quick Reaction Alert (QRA) & Air Defence",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Air Defence", "Fast Jet Operations", "Interception"]
+    },
+    {
+      "number": 11,
+      "name": "11 Squadron RAF",
+      "aircraft": "Typhoon FGR4",
+      "role": "Air Defence & Ground Attack",
+      "location": "Coningsby, Lincolnshire",
+      "personnel": 250,
+      "squadrons_aircraft": 12,
+      "operational_role": "Air Defence & Ground Attack",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Air Defence", "Ground Attack", "Fast Jet Operations"]
+    },
+    {
+      "number": 29,
+      "name": "29 Squadron RAF",
+      "aircraft": "Typhoon FGR4",
+      "role": "Air Defence",
+      "location": "Coningsby, Lincolnshire",
+      "personnel": 250,
+      "squadrons_aircraft": 12,
+      "operational_role": "Air Defence",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Air Defence", "Fast Jet Operations"]
+    },
+    {
+      "number": 31,
+      "name": "31 Squadron RAF",
+      "aircraft": "Tornado GR4",
+      "role": "Ground Attack & Reconnaissance",
+      "location": "Marham, Norfolk",
+      "personnel": 250,
+      "squadrons_aircraft": 8,
+      "operational_role": "Ground Attack & Air-to-Surface Strike",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Ground Attack", "Air-to-Surface Strike", "Tactical Bombing"],
+      "retirement_date": "2024"
+    },
+    {
+      "number": 100,
+      "name": "100 Squadron RAF",
+      "aircraft": "Hawk T2",
+      "role": "Advanced Fast Jet Training",
+      "location": "Valley, Wales",
+      "personnel": 200,
+      "squadrons_aircraft": 18,
+      "operational_role": "Advanced Pilot Training",
+      "specializations": ["Fast Jet Training", "Air Combat Tactics", "Tactical Flying"]
+    },
+    {
+      "number": 208,
+      "name": "208 Squadron RAF",
+      "aircraft": "Tornado GR4",
+      "role": "Ground Attack & Reconnaissance",
+      "location": "Marham, Norfolk",
+      "personnel": 250,
+      "squadrons_aircraft": 8,
+      "operational_role": "Ground Attack & Reconnaissance",
+      "deployment_frequency": "6-month rotations",
+      "specializations": ["Ground Attack", "Tactical Reconnaissance", "Air-to-Surface Strike"],
+      "retirement_date": "2024"
+    }
+  ],
+  "transport_squadrons": [
+    {
+      "number": 10,
+      "name": "10 Squadron RAF",
+      "aircraft": "VC-10/Voyager",
+      "role": "Air-to-Air Refuelling & Strategic Transport",
+      "location": "Brize Norton, Oxfordshire",
+      "personnel": 350,
+      "squadrons_aircraft": 14,
+      "operational_role": "AAR (Air-to-Air Refuelling)",
+      "specializations": ["Air-to-Air Refuelling", "Strategic Transport", "Global Operations"]
+    },
+    {
+      "number": 24,
+      "name": "24 Squadron RAF",
+      "aircraft": "C-130J Hercules",
+      "role": "Tactical Transport",
+      "location": "Brize Norton, Oxfordshire",
+      "personnel": 300,
+      "squadrons_aircraft": 8,
+      "operational_role": "Tactical Airlift & Airborne Operations",
+      "specializations": ["Tactical Transport", "Airborne Operations", "Disaster Relief"]
+    },
+    {
+      "number": 30,
+      "name": "30 Squadron RAF",
+      "aircraft": "C-17 Globemaster III",
+      "role": "Strategic Airlift",
+      "location": "Brize Norton, Oxfordshire",
+      "personnel": 300,
+      "squadrons_aircraft": 8,
+      "operational_role": "Strategic Airlift & Heavy Transport",
+      "specializations": ["Strategic Airlift", "Heavy Equipment Transport", "Global Operations"]
+    },
+    {
+      "number": 70,
+      "name": "70 Squadron RAF",
+      "aircraft": "C-130J Hercules",
+      "role": "Tactical Transport",
+      "location": "Brize Norton, Oxfordshire",
+      "personnel": 300,
+      "squadrons_aircraft": 8,
+      "operational_role": "Tactical Airlift",
+      "specializations": ["Tactical Transport", "Airborne Operations"]
+    }
+  ],
+  "helicopter_squadrons": [
+    {
+      "number": 18,
+      "name": "18 Squadron RAF",
+      "aircraft": "Chinook HC6",
+      "role": "Medium Lift Helicopter",
+      "location": "Odiham, Hampshire",
+      "personnel": 250,
+      "squadrons_aircraft": 16,
+      "operational_role": "Troop/Equipment Transport",
+      "specializations": ["Medium Lift", "Tactical Transport", "Special Operations Support"]
+    },
+    {
+      "number": 27,
+      "name": "27 Squadron RAF",
+      "aircraft": "Chinook HC6",
+      "role": "Medium Lift Helicopter",
+      "location": "Odiham, Hampshire",
+      "personnel": 250,
+      "squadrons_aircraft": 16,
+      "operational_role": "Troop/Equipment Transport",
+      "specializations": ["Medium Lift", "Tactical Transport", "Special Operations Support"]
+    },
+    {
+      "number": 28,
+      "name": "28 Squadron RAF",
+      "aircraft": "Sea King HAR3",
+      "role": "Search & Rescue",
+      "location": "Valley, Wales",
+      "personnel": 200,
+      "squadrons_aircraft": 6,
+      "operational_role": "Search & Rescue Operations",
+      "specializations": ["Search & Rescue", "Maritime Rescue", "Helicopter Operations"],
+      "retirement_date": "2026"
+    },
+    {
+      "number": 33,
+      "name": "33 Squadron RAF",
+      "aircraft": "Puma HC1",
+      "role": "Tactical Transport Helicopter",
+      "location": "Benson, Oxfordshire",
+      "personnel": 200,
+      "squadrons_aircraft": 12,
+      "operational_role": "Tactical Airlift & Support",
+      "specializations": ["Tactical Transport", "Support Operations"]
+    },
+    {
+      "number": 47,
+      "name": "47 Squadron RAF",
+      "aircraft": "Chinook HC6",
+      "role": "Medium Lift Helicopter",
+      "location": "Odiham, Hampshire",
+      "personnel": 250,
+      "squadrons_aircraft": 16,
+      "operational_role": "Troop/Equipment Transport",
+      "specializations": ["Medium Lift", "Tactical Transport", "Special Operations Support"]
+    },
+    {
+      "number": 84,
+      "name": "84 Squadron RAF",
+      "aircraft": "Merlin HC3",
+      "role": "Medium Lift Helicopter",
+      "location": "Akrotiri, Cyprus",
+      "personnel": 200,
+      "squadrons_aircraft": 12,
+      "operational_role": "Tactical Airlift & Middle East Operations",
+      "specializations": ["Medium Lift", "Overseas Operations"]
+    },
+    {
+      "number": 230,
+      "name": "230 Squadron RAF",
+      "aircraft": "Puma HC1",
+      "role": "Tactical Transport Helicopter",
+      "location": "Aldergrove, Northern Ireland",
+      "personnel": 200,
+      "squadrons_aircraft": 12,
+      "operational_role": "Tactical Airlift & Support",
+      "specializations": ["Tactical Transport", "Support Operations"]
+    }
+  ],
+  "search_and_rescue_squadrons": [
+    {
+      "number": 22,
+      "name": "22 Squadron RAF",
+      "aircraft": "Sea King HAR3",
+      "role": "Search & Rescue",
+      "location": "Lossiemouth, Scotland",
+      "personnel": 180,
+      "squadrons_aircraft": 6,
+      "operational_role": "Maritime & Land Search & Rescue",
+      "specializations": ["Search & Rescue", "Maritime Rescue", "Helicopter Operations"],
+      "retirement_date": "2026"
+    },
+    {
+      "number": 202,
+      "name": "202 Squadron RAF",
+      "aircraft": "Sea King HAR3",
+      "role": "Search & Rescue",
+      "location": "Rescue 942 (Boulmer)",
+      "personnel": 180,
+      "squadrons_aircraft": 6,
+      "operational_role": "Maritime & Land Search & Rescue",
+      "specializations": ["Search & Rescue", "Maritime Rescue", "Helicopter Operations"],
+      "retirement_date": "2026"
+    },
+    {
+      "number": 203,
+      "name": "203 Squadron RAF",
+      "aircraft": "Sea King HAR3",
+      "role": "Search & Rescue",
+      "location": "Rescue 946 (Chivenor)",
+      "personnel": 180,
+      "squadrons_aircraft": 6,
+      "operational_role": "Maritime & Land Search & Rescue",
+      "specializations": ["Search & Rescue", "Maritime Rescue", "Helicopter Operations"],
+      "retirement_date": "2026"
+    }
+  ],
+  "special_operations_squadrons": [
+    {
+      "number": 7,
+      "name": "7 Squadron RAF",
+      "aircraft": "Chinook HC6",
+      "role": "Special Operations Support",
+      "location": "Odiham, Hampshire",
+      "personnel": 250,
+      "squadrons_aircraft": 16,
+      "operational_role": "Special Forces Aviation Support",
+      "specializations": ["Special Operations", "Tactical Transport", "HALO/HAHO Support"],
+      "special_operations": true
+    },
+    {
+      "number": 230,
+      "name": "230 Squadron RAF (Northern Ireland)",
+      "aircraft": "Puma HC1",
+      "role": "Tactical Transport & Counter-Terrorism Support",
+      "location": "Aldergrove, Northern Ireland",
+      "personnel": 200,
+      "squadrons_aircraft": 12,
+      "operational_role": "Tactical Airlift & Counter-Terrorism Support",
+      "specializations": ["Tactical Transport", "Counter-Terrorism Support"]
+    }
+  ],
+  "maritime_patrol_squadrons": [
+    {
+      "number": 42,
+      "name": "42 Squadron RAF",
+      "aircraft": "Nimrod MRA4",
+      "role": "Maritime Patrol & Anti-Submarine Warfare",
+      "location": "Kinloss, Scotland",
+      "personnel": 280,
+      "squadrons_aircraft": 6,
+      "operational_role": "Maritime Patrol & ASW",
+      "specializations": ["Maritime Patrol", "Anti-Submarine Warfare", "Reconnaissance"],
+      "retirement_status": "Retired (2010)"
+    }
+  ],
+  "training_squadrons": [
+    {
+      "number": 6,
+      "name": "6 Flying Training School (6 FTS)",
+      "aircraft": "Beechcraft Texan T6",
+      "role": "Elementary Flying Training",
+      "location": "Cranwell, Lincolnshire",
+      "personnel": 400,
+      "specializations": ["Elementary Pilot Training", "Multi-Engine Training", "Navigation Training"]
+    },
+    {
+      "number": 3,
+      "name": "3 Flying Training School (3 FTS)",
+      "aircraft": "Beechcraft Texan T6",
+      "role": "Elementary Flying Training",
+      "location": "Cranwell, Lincolnshire",
+      "personnel": 400,
+      "specializations": ["Elementary Pilot Training", "Fast Jet Path Selection"]
+    },
+    {
+      "number": 11,
+      "name": "11 Flying Training School (11 FTS)",
+      "aircraft": "Hawk T1/T2",
+      "role": "Advanced Fast Jet Training",
+      "location": "Valley, Wales",
+      "personnel": 350,
+      "specializations": ["Advanced Pilot Training", "Fast Jet Tactics", "Combat Manoeuvres"]
+    },
+    {
+      "number": 27,
+      "name": "27 Squadron RAF (Training)",
+      "aircraft": "Chinook HC6",
+      "role": "Helicopter Operational Training",
+      "location": "Odiham, Hampshire",
+      "personnel": 250,
+      "specializations": ["Helicopter Operations", "Tactical Transport Training"]
+    }
+  ]
+}

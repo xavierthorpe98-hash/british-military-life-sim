@@ -1,0 +1,146 @@
+{
+  "raf_bases": [
+    {
+      "name": "RAF Coningsby",
+      "location": "Lincolnshire, England",
+      "role": "Fast Jet Base",
+      "squadrons": ["3 Squadron", "11 Squadron", "29 Squadron"],
+      "aircraft": ["Typhoon FGR4"],
+      "personnel": 2000,
+      "facilities": ["Flight simulator", "Weapons range", "Maintenance hangars", "Officer's mess"]
+    },
+    {
+      "name": "RAF Lossiemouth",
+      "location": "Scotland",
+      "role": "Fast Jet & QRA Base",
+      "squadrons": ["1 Squadron", "6 Squadron"],
+      "aircraft": ["Typhoon FGR4"],
+      "personnel": 1800,
+      "facilities": ["QRA facility", "Flight simulator", "Weapons range", "Training facilities"]
+    },
+    {
+      "name": "RAF Leuchars",
+      "location": "Scotland",
+      "role": "Fast Jet QRA Base",
+      "squadrons": ["6 Squadron"],
+      "aircraft": ["Typhoon FGR4"],
+      "personnel": 1200,
+      "facilities": ["QRA facility", "Flight simulator", "Training areas"]
+    },
+    {
+      "name": "RAF Brize Norton",
+      "location": "Oxfordshire, England",
+      "role": "Transport Hub",
+      "squadrons": ["10 Squadron", "24 Squadron", "30 Squadron", "70 Squadron"],
+      "aircraft": ["C-130J Hercules", "C-17 Globemaster III", "VC-10", "Voyager", "A400M"],
+      "personnel": 3500,
+      "facilities": ["Large cargo facilities", "Flight simulator", "AAR training area", "Global operations centre"]
+    },
+    {
+      "name": "RAF Odiham",
+      "location": "Hampshire, England",
+      "role": "Helicopter Base",
+      "squadrons": ["7 Squadron", "18 Squadron", "27 Squadron", "47 Squadron"],
+      "aircraft": ["Chinook HC6"],
+      "personnel": 1500,
+      "facilities": ["Helicopter simulator", "Maintenance hangars", "Special operations support", "Training areas"]
+    },
+    {
+      "name": "RAF Valley",
+      "location": "Wales",
+      "role": "Training & SAR Base",
+      "squadrons": ["11 FTS", "100 Squadron", "28 Squadron"],
+      "aircraft": ["Hawk T1/T2", "Sea King HAR3"],
+      "personnel": 1200,
+      "facilities": ["Flight simulator", "SAR facility", "Training areas", "Advanced training centre"]
+    },
+    {
+      "name": "RAF Cranwell",
+      "location": "Lincolnshire, England",
+      "role": "Officer Training & Flying School",
+      "squadrons": ["3 FTS", "6 FTS"],
+      "aircraft": ["Beechcraft Texan T6"],
+      "personnel": 1800,
+      "facilities": ["Officer training academy", "Flight simulator", "Elementary flying training", "Academic centres"]
+    },
+    {
+      "name": "RAF Benson",
+      "location": "Oxfordshire, England",
+      "role": "Helicopter Base",
+      "squadrons": ["33 Squadron"],
+      "aircraft": ["Puma HC1"],
+      "personnel": 800,
+      "facilities": ["Helicopter simulator", "Maintenance hangars", "Training areas"]
+    },
+    {
+      "name": "RAF Shawbury",
+      "location": "Shropshire, England",
+      "role": "Helicopter Flying Training",
+      "squadrons": [],
+      "aircraft": ["Beechcraft Squirrel", "Eurocopter AS355"],
+      "personnel": 600,
+      "facilities": ["Helicopter flight simulator", "Training areas", "Elementary rotary wing training"]
+    },
+    {
+      "name": "RAF Marham",
+      "location": "Norfolk, England",
+      "role": "Ground Attack Base",
+      "squadrons": ["31 Squadron", "208 Squadron"],
+      "aircraft": ["Tornado GR4"],
+      "personnel": 1500,
+      "facilities": ["Flight simulator", "Weapons range", "Maintenance hangars"],
+      "status": "Transitioning to other roles (Tornado retirement 2024)"
+    },
+    {
+      "name": "RAF Kinloss",
+      "location": "Scotland",
+      "role": "Maritime Patrol Base",
+      "squadrons": ["42 Squadron"],
+      "aircraft": ["Nimrod MRA4"],
+      "personnel": 900,
+      "facilities": ["Flight simulator", "Maritime patrol centre", "ASW training"],
+      "status": "Nimrod retirement 2010"
+    },
+    {
+      "name": "RAF Akrotiri",
+      "location": "Cyprus",
+      "role": "Overseas Base",
+      "squadrons": ["84 Squadron"],
+      "aircraft": ["Merlin HC3"],
+      "personnel": 500,
+      "facilities": ["Helicopter simulator", "Training areas", "Maintenance facilities"]
+    },
+    {
+      "name": "RAF Aldergrove",
+      "location": "Northern Ireland",
+      "role": "Tactical Helicopter Base",
+      "squadrons": ["230 Squadron"],
+      "aircraft": ["Puma HC1"],
+      "personnel": 400,
+      "facilities": ["Helicopter simulator", "Training areas", "Maintenance facilities"]
+    }
+  ],
+  "raf_training_establishments": [
+    {
+      "name": "RAF College Cranwell",
+      "location": "Lincolnshire, England",
+      "role": "Officer Initial Training",
+      "course_duration_weeks": 24,
+      "personnel": 2000,
+      "facilities": ["Academic classrooms", "Officer mess", "Physical training", "Flight simulator"]
+    },
+    {
+      "name": "Air Warfare Centre (AWC)",
+      "location": "RAF Benson, Oxfordshire",
+      "role": "Advanced Tactical Training",
+      "specializations": ["Air combat tactics", "Weapons employment", "Operational procedures"]
+    },
+    {
+      "name": "Central Flying School (CFS)",
+      "location": "RAF Cranwell",
+      "role": "Flying Instructor Training",
+      "course_duration_weeks": 6,
+      "specializations": ["QFI (Qualified Flying Instructor) training"]
+    }
+  ]
+}

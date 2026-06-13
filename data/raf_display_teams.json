@@ -1,0 +1,159 @@
+{
+  "display_teams": [
+    {
+      "name": "Red Arrows (Royal Air Force Aerobatic Team)",
+      "aircraft": "Hawk T1/T2",
+      "location": "RAF Scampton, Lincolnshire",
+      "personnel": 9,
+      "role": "Aerobatic Display Team",
+      "eligibility": {
+        "rank": "Flying Officer, Flight Lieutenant",
+        "flying_hours": "1500+ fast jet hours",
+        "service": "5+ years in fast jets",
+        "selection": "Invitation-based, rigorous testing"
+      },
+      "tour_length_years": 3,
+      "specializations": ["Aerobatic Display", "Formation Flying", "Advanced Tactics"],
+      "international_displays": true,
+      "uk_airshows": ["Farnborough Air Show", "Royal International Air Tattoo", "Bournemouth Air Festival"],
+      "training_focus": "Precision formation flying, aerobatic manoeuvres, display procedures"
+    },
+    {
+      "name": "Chinook Display Team",
+      "aircraft": "Chinook HC6",
+      "location": "RAF Odiham, Hampshire",
+      "personnel": 6,
+      "role": "Helicopter Display Team",
+      "eligibility": {
+        "rank": "Flight Lieutenant, Squadron Leader",
+        "flying_hours": "1000+ helicopter hours",
+        "service": "5+ years in helicopters",
+        "selection": "Application & interview process"
+      },
+      "tour_length_years": 3,
+      "specializations": ["Helicopter Display", "Formation Flying", "Low-Level Operations"],
+      "displays": [
+        "Tactical insertion demonstrations",
+        "Heavy lift capability displays",
+        "Formation flying displays"
+      ],
+      "uk_airshows": ["Farnborough Air Show", "Royal International Air Tattoo", "Air Shows UK-wide"]
+    },
+    {
+      "name": "Typhoon Display Team",
+      "aircraft": "Typhoon FGR4",
+      "location": "Coningsby, Lincolnshire",
+      "personnel": 4,
+      "role": "Fast Jet Display Team",
+      "eligibility": {
+        "rank": "Flight Lieutenant, Squadron Leader",
+        "flying_hours": "1200+ Typhoon hours",
+        "service": "4+ years on Typhoon squadrons",
+        "selection": "Squadron commander nomination"
+      },
+      "tour_length_years": 2,
+      "specializations": ["Fast Jet Display", "Air Combat Manoeuvres", "Low-Level Flying"],
+      "displays": [
+        "High-speed passes",
+        "Vertical manoeuvres",
+        "Formation flying",
+        "Combat manoeuvre displays"
+      ],
+      "uk_airshows": ["Farnborough Air Show", "Royal International Air Tattoo", "Bournemouth Air Festival"]
+    },
+    {
+      "name": "Tutor Display Team",
+      "aircraft": "Beechcraft Texan T6",
+      "location": "Cranwell, Lincolnshire",
+      "personnel": 4,
+      "role": "Training Aircraft Display Team",
+      "eligibility": {
+        "rank": "Pilot Officer, Flying Officer",
+        "flying_hours": "400+ Texan hours",
+        "service": "2+ years in training role",
+        "selection": "Instructor recommendation"
+      },
+      "tour_length_years": 3,
+      "specializations": ["Formation Flying", "Display Techniques", "Training Demonstrations"],
+      "displays": [
+        "Formation flying",
+        "Aerobatic sequences",
+        "Training demonstrations"
+      ]
+    },
+    {
+      "name": "Black Cats Helicopter Display Team",
+      "aircraft": "Merlin HC3 / Chinook HC6",
+      "location": "RAF Odiham, Hampshire",
+      "personnel": 8,
+      "role": "Helicopter Formation Display Team",
+      "eligibility": {
+        "rank": "Flight Lieutenant, Squadron Leader",
+        "flying_hours": "1000+ helicopter hours",
+        "service": "5+ years in helicopters",
+        "selection": "Recommendation & selection board"
+      },
+      "tour_length_years": 3,
+      "specializations": ["Helicopter Formation Flying", "Display Techniques", "Tactical Demonstrations"],
+      "displays": [
+        "Multi-helicopter formation",
+        "Complex manoeuvres",
+        "Tactical demonstrations"
+      ]
+    }
+  ],
+  "display_team_selection_process": {
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Initial Application",
+        "requirements": ["Meet flying hour requirements", "Squadron commander recommendation", "Medical clearance"],
+        "outcome": "Shortlist of candidates"
+      },
+      {
+        "stage": 2,
+        "name": "Selection Board",
+        "requirements": ["Flying examination", "Aptitude assessment", "Interview"],
+        "duration_days": 2,
+        "outcome": "Provisional selection"
+      },
+      {
+        "stage": 3,
+        "name": "Probationary Period",
+        "requirements": ["Intensive display training", "Progressive flying tests", "Team integration"],
+        "duration_weeks": 8,
+        "outcome": "Full display team membership or rejection"
+      }
+    ]
+  },
+  "display_team_training": {
+    "intensive_training_program": {
+      "duration_weeks": 12,
+      "location": "Display team base",
+      "modules": [
+        {"week": "1-3", "content": "Basic display manoeuvres & procedures"},
+        {"week": "4-6", "content": "Formation flying & spacing procedures"},
+        {"week": "7-9", "content": "Advanced displays & complex sequences"},
+        {"week": "10-12", "content": "Final evaluation & display readiness"}
+      ]
+    },
+    "ongoing_training": {
+      "frequency": "Daily during display season",
+      "focus": ["Display synchronization", "Safety procedures", "Weather operations", "Emergency procedures"]
+    }
+  },
+  "display_team_career_benefits": [
+    "High-profile public visibility",
+    "International travel opportunities",
+    "Advanced flying experience",
+    "Career progression opportunity",
+    "Unique operational experience",
+    "Enhanced promotion prospects"
+  ],
+  "display_season": {
+    "duration": "March - September (typically)",
+    "displays_per_season": "40-50 major displays",
+    "locations": ["UK airshows", "International displays", "Special events"],
+    "rest_periods": "September - February (training, maintenance, planning)"
+  }
+}
